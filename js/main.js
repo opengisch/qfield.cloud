@@ -11,7 +11,7 @@ $(function () {
 
 	$('#mc-form').ajaxChimp({
 		callback: callbackFunction,
-		url: 'http://csmthemes.us3.list-manage.com/subscribe/post?u=9666c25a337f497687875a388&id=45b2c44b98'
+		url: 'https://opengis.us3.list-manage.com/subscribe/post?u=2d414f4d56360dcbf83927721&amp;id=dfa55b9546'
 			// http://xxx.xxx.list-manage.com/subscribe/post?u=xxx&id=xxx
 	});
 
