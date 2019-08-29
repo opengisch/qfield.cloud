@@ -9,7 +9,7 @@ function isEmail($email)
 if ($_POST) {
     
     // Enter the email where you want to receive the message
-    $emailTo = 'pixininja@csmthemes.com';
+    $emailTo = 'info@opengis.ch';
     
     $name        = addslashes(trim($_POST['name']));
     $clientEmail = addslashes(trim($_POST['email']));

@@ -8,3 +8,10 @@ green: #80cc28ff
     width: 200px;
 }
 
+.hero-welcome-message h1{
+    color: #80cc28ff;
+}
+
+.hero-welcome-message h2{
+    color: #4c6dacff;
+}
