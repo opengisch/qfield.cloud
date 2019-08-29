@@ -66,7 +66,7 @@ h6 {
 }
 
 a {
-  color: #3b28ea;
+  color: #4c6dac;
   transition: all 0.3s ease-in-out;
 }
 
@@ -110,7 +110,7 @@ strong { font-weight: 700; }
 .ml-auto { padding: 1.5rem 0; }
 
 .navbar-light .navbar-toggler {
-  color: #3b28ea;
+  color: #4c6dac;
   border-color: transparent;
   background: transparent;
 }
@@ -188,7 +188,7 @@ strong { font-weight: 700; }
 .navbar-light .navbar-nav .nav-link,
 .hero-section .navbar.affix .nav-link,
 .navbar-light.affix .navbar-nav .nav-link:focus,
-.navbar-light.affix .navbar-nav .show>.nav-link { color: #3b28ea; }
+.navbar-light.affix .navbar-nav .show>.nav-link { color: #4c6dac; }
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover,
@@ -200,7 +200,7 @@ strong { font-weight: 700; }
   width: 23px;
   height: 2px;
   border-radius: 1px;
-  background-color: #3b28ea;
+  background-color: #4c6dac;
   position: relative;
   transition: all 500ms ease-in-out;
 }
@@ -277,7 +277,7 @@ strong { font-weight: 700; }
 
 .signup-form .form-control {
   padding: 1.7rem 1.5rem;
-  color: #3b28ea;
+  color: #4c6dac;
   background: #d8d4fb;
   border-color: #fff;
 }
@@ -287,24 +287,24 @@ strong { font-weight: 700; }
   border-color: #fff;
 }
  .signup-form ::-webkit-input-placeholder {
- color: #3b28ea !important;
+ color: #4c6dac !important;
  font-size: 18px;
 }
 .signup-form ::-moz-placeholder {
- color: #3b28ea !important;
+ color: #4c6dac !important;
  font-size: 18px;
 }
 .signup-form :-ms-input-placeholder {
- color: #3b28ea !important;
+ color: #4c6dac !important;
  font-size: 18px;
 }
 .signup-form :-moz-placeholder {
- color: #3b28ea !important;
+ color: #4c6dac !important;
  font-size: 18px;
 }
  @-webkit-keyframes autofill {
  to {
- color: #3b28ea;
+ color: #4c6dac;
  background: #d8d4fb;
 }
 }
@@ -328,8 +328,8 @@ strong { font-weight: 700; }
 .btn-primary:disabled,
 .navbar.affix .nav-item .btn-primary {
   color: #fff;
-  background-color: #3b28ea;
-  border-color: #3b28ea;
+  background-color: #4c6dac;
+  border-color: #4c6dac;
 }
 
 .btn-primary:hover,
@@ -348,8 +348,8 @@ strong { font-weight: 700; }
   padding: .5rem 2rem;
   margin: 10px 0;
   background-color: transparent;
-  border-color: #3b28ea;
-  color: #3b28ea;
+  border-color: #4c6dac;
+  color: #4c6dac;
 }
 
 .navbar .nav-item .btn:hover {
@@ -425,7 +425,7 @@ strong { font-weight: 700; }
 .close:not(:disabled):not(.disabled):focus,
 .close:not(:disabled):not(.disabled):hover {
   opacity: 1;
-  color: #3b28ea;
+  color: #4c6dac;
 }
 
 .modal-header button:focus,
@@ -471,8 +471,8 @@ strong { font-weight: 700; }
    ========================================================================== */
 
 .features {
-  background: #3b28ea;
-  box-shadow: 0 -10px 0 10px #3b28ea;
+  background: #4c6dac;
+  box-shadow: 0 -10px 0 10px #4c6dac;
 }
 
 .features.section-spacing { padding: 3rem 0 4.5rem; }
@@ -524,7 +524,7 @@ strong { font-weight: 700; }
 
 
 .features-more h2 {
-  color: #3b28ea;
+  color: #4c6dac;
   font-size: 1.875rem;
 }
 
@@ -542,7 +542,7 @@ strong { font-weight: 700; }
   height: 100%;
 }
 
-.features-more-wrapper:hover { border: 1px solid #3b28ea; }
+.features-more-wrapper:hover { border: 1px solid #4c6dac; }
 
 .features-more .container > .row > [class^=col]:not(:last-child) { margin-bottom: 3rem; }
 
@@ -552,7 +552,7 @@ strong { font-weight: 700; }
 
 
 .cta {
-  background: #3b28ea;
+  background: #4c6dac;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -572,7 +572,7 @@ strong { font-weight: 700; }
 
 .cta-button .btn,
 .cta-button .btn:focus {
-  color: #3b28ea;
+  color: #4c6dac;
   background-color: #fff;
   border-color: #fff;
 }
@@ -580,7 +580,7 @@ strong { font-weight: 700; }
 .cta-button .btn:hover,
 .cta-button .btn-primary:not([disabled]):not(.disabled):active {
   background-color: rgba(255, 255, 255, 0.922);
-  color: #3b28ea;
+  color: #4c6dac;
   box-shadow: none;
   border-color: rgba(255, 255, 255, 0.922);
 }
@@ -653,7 +653,7 @@ strong { font-weight: 700; }
   position: relative;
   transition: all .8s ease;
   font-size: .9rem;
-  background: #3b28ea;
+  background: #4c6dac;
 }
 
 .social li a:hover { background: #4533eb; }
