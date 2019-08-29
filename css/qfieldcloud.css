@@ -15,3 +15,7 @@ green: #80cc28ff
 .hero-welcome-message h2{
     color: #4c6dacff;
 }
+
+.hero-welcome-message img{
+    padding-bottom: 230px;
+}
