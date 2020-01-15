@@ -72,7 +72,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #4533eb;
+  color: #80cc28;
   text-decoration: none;
 }
 
@@ -128,7 +128,7 @@ strong { font-weight: 700; }
   display: block;
   width: 0;
   height: 2px;
-  background: #4533eb;
+  background: #80cc28;
   transition: width .3s;
 }
 
@@ -193,7 +193,7 @@ strong { font-weight: 700; }
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light.affix .navbar-nav .nav-link:hover,
-.navbar-light .navbar-nav .show>.nav-link { color: #4533eb; }
+.navbar-light .navbar-nav .show>.nav-link { color: #80cc28; }
 
 .navbar-toggler .icon-bar {
   display: block;
@@ -205,7 +205,7 @@ strong { font-weight: 700; }
   transition: all 500ms ease-in-out;
 }
 
-.navbar-toggler:hover .icon-bar { background-color: #4533eb; }
+.navbar-toggler:hover .icon-bar { background-color: #80cc28; }
 
 .navbar-toggler .icon-bar:not(:last-child) { margin-bottom: 5px; }
 
@@ -336,8 +336,8 @@ strong { font-weight: 700; }
 .navbar.affix .nav-item .btn-primary:hover,
 .btn-primary:not([disabled]):not(.disabled):active {
   color: #fff;
-  background-color: #4533eb;
-  border-color: #4533eb;
+  background-color: #80cc28;
+  border-color: #80cc28;
 }
 
 .btn-primary:not([disabled]):not(.disabled):active,
@@ -353,8 +353,8 @@ strong { font-weight: 700; }
 }
 
 .navbar .nav-item .btn:hover {
-  background-color: #4533eb;
-  border-color: #4533eb;
+  background-color: #80cc28;
+  border-color: #80cc28;
   color: #fff;
 }
 
@@ -485,7 +485,7 @@ strong { font-weight: 700; }
 }
 
 .features .section-header h2,
-.features .section-header h3 { color: #ffbfd9; }
+.features .section-header h3 { color: #80cc28ff; }
 
 .features .section-header h2 {
   font-size: 1.375rem;
@@ -505,7 +505,7 @@ strong { font-weight: 700; }
 
 .features h4 {
   font-size: 1.5rem;
-  color: #14efb5;
+  color: #80cc28ff;
   margin: 1.5rem 0 0;
   font-weight: 400;
 }
@@ -656,12 +656,12 @@ strong { font-weight: 700; }
   background: #4c6dac;
 }
 
-.social li a:hover { background: #4533eb; }
+.social li a:hover { background: #80cc28; }
 
 .terms-privacy a { color: #898d98; }
 
 .terms-privacy a:hover,
-.terms-privacy a:focus { color: #4533eb; }
+.terms-privacy a:focus { color: #80cc28; }
 
 /* ==========================================================================
    8.Small devices (landscape phones, 576px and up)
