@@ -8,8 +8,9 @@ green: #80cc28ff
     width: 200px;
 }
 
-.hero-welcome-message h1{
+.hero-welcome-message #title{
     color: #80cc28ff;
+    font-size: 9rem;
 }
 
 .hero-welcome-message h2{
@@ -18,6 +19,19 @@ green: #80cc28ff
 
 .hero-welcome-message img{
     padding-bottom: 230px;
+}
+
+#hero-section div.signup-form{
+    margin-bottom: 200px;
+}
+
+#features{
+    padding-top: 0;
+    margin-top: -100px;
+}
+
+#mc-email{
+    margin-bottom: 170px;
 }
 
 .section-header a{
