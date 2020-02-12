@@ -1,99 +1,230 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Generator: Adobe Illustrator 19.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
-	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
-	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
-	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
-	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
-	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
-	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
-	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
-	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
-]>
-<svg version="1.1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64"
-	 style="enable-background:new 0 0 64 64;" xml:space="preserve">
-<style type="text/css">
+
+<svg
+   xmlns:ns="&amp;ns_ai;"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 64 64"
+   style="enable-background:new 0 0 64 64;"
+   xml:space="preserve"
+   id="svg4938"
+   sodipodi:docname="online.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"><metadata
+   id="metadata4944"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs4942" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1920"
+   inkscape:window-height="1043"
+   id="namedview4940"
+   showgrid="false"
+   inkscape:zoom="13.484375"
+   inkscape:cx="32"
+   inkscape:cy="32"
+   inkscape:window-x="0"
+   inkscape:window-y="1024"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg4938" />
+<style
+   type="text/css"
+   id="style4884">
 	.st0{display:none;}
 	.st1{display:inline;fill:#FFFFFF;}
 	.st2{fill:#2C3030;}
 	.st3{fill:url(#SVGID_1_);}
 	.st4{fill:#93AAA8;}
 </style>
-<switch>
-	<foreignObject requiredExtensions="&ns_ai;" x="0" y="0" width="1" height="1">
-		<i:pgfRef  xlink:href="#adobe_illustrator_pgf">
-		</i:pgfRef>
+<switch
+   id="switch4936"
+   style="fill:#80cc28;fill-opacity:1">
+	<foreignObject
+   requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/"
+   x="0"
+   y="0"
+   width="1"
+   height="1">
+		<ns:pgfRef
+   xlink:href="#adobe_illustrator_pgf">
+		</ns:pgfRef>
 	</foreignObject>
-	<g i:extraneous="self">
-		<g id="Background" class="st0">
-			<rect x="-265" y="-315" class="st1" width="500" height="550"/>
+	<g
+   ns:extraneous="self"
+   id="g4934"
+   style="fill:#80cc28;fill-opacity:1">
+		<g
+   id="Background"
+   class="st0"
+   style="fill:#80cc28;fill-opacity:1">
+			<rect
+   x="-265"
+   y="-315"
+   class="st1"
+   width="500"
+   height="550"
+   id="rect4886"
+   style="fill:#80cc28;fill-opacity:1" />
 		</g>
-		<g id="Icons">
-			<g id="Server">
+		<g
+   id="Icons"
+   style="fill:#80cc28;fill-opacity:1">
+			<g
+   id="Server"
+   style="fill:#80cc28;fill-opacity:1">
 			</g>
-			<g id="Code">
+			<g
+   id="Code"
+   style="fill:#80cc28;fill-opacity:1">
 			</g>
-			<g id="Head">
+			<g
+   id="Head"
+   style="fill:#80cc28;fill-opacity:1">
 			</g>
-			<g id="Structure_with_rectangles">
+			<g
+   id="Structure_with_rectangles"
+   style="fill:#80cc28;fill-opacity:1">
 			</g>
-			<g id="Gamepad">
+			<g
+   id="Gamepad"
+   style="fill:#80cc28;fill-opacity:1">
 			</g>
-			<g id="Aerial">
-				<g>
-					<path class="st2" d="M21.9,27.6c-1.2-2-1.9-4.3-1.9-6.6c0-3.3,1.3-6.5,3.7-8.8l1.4,1.4c-2,2-3.1,4.6-3.1,7.4
-						c0,2,0.5,3.9,1.6,5.6L21.9,27.6z"/>
-					<path class="st2" d="M18.7,34.8C15,31.1,13,26.2,13,21c0-5.2,2-10.1,5.7-13.8l1.4,1.4C16.8,11.9,15,16.3,15,21
-						c0,4.7,1.8,9.1,5.1,12.4L18.7,34.8z"/>
-					<path class="st2" d="M13.8,39.7C8.8,34.7,6,28.1,6,21c0-7.1,2.8-13.7,7.8-18.7l1.4,1.4C10.5,8.3,8,14.5,8,21
-						c0,6.5,2.5,12.7,7.2,17.3L13.8,39.7z"/>
-					<path class="st2" d="M42.1,27.6l-1.7-1.1c1-1.7,1.6-3.6,1.6-5.6c0-2.8-1.1-5.4-3.1-7.4l1.4-1.4c2.4,2.4,3.7,5.5,3.7,8.8
-						C44,23.4,43.3,25.6,42.1,27.6z"/>
-					<path class="st2" d="M45.3,34.8l-1.4-1.4C47.2,30.1,49,25.7,49,21c0-4.7-1.8-9.1-5.1-12.4l1.4-1.4C49,10.9,51,15.8,51,21
-						C51,26.2,49,31.1,45.3,34.8z"/>
-					<path class="st2" d="M50.2,39.7l-1.4-1.4C53.5,33.7,56,27.5,56,21c0-6.5-2.5-12.7-7.2-17.3l1.4-1.4c5,5,7.8,11.7,7.8,18.7
-						C58,28.1,55.2,34.7,50.2,39.7z"/>
+			<g
+   id="Aerial"
+   style="fill:#80cc28;fill-opacity:1">
+				<g
+   id="g4906"
+   style="fill:#80cc28;fill-opacity:1">
+					<path
+   class="st2"
+   d="M21.9,27.6c-1.2-2-1.9-4.3-1.9-6.6c0-3.3,1.3-6.5,3.7-8.8l1.4,1.4c-2,2-3.1,4.6-3.1,7.4       c0,2,0.5,3.9,1.6,5.6L21.9,27.6z"
+   id="path4894"
+   style="fill:#80cc28;fill-opacity:1" />
+					<path
+   class="st2"
+   d="M18.7,34.8C15,31.1,13,26.2,13,21c0-5.2,2-10.1,5.7-13.8l1.4,1.4C16.8,11.9,15,16.3,15,21       c0,4.7,1.8,9.1,5.1,12.4L18.7,34.8z"
+   id="path4896"
+   style="fill:#80cc28;fill-opacity:1" />
+					<path
+   class="st2"
+   d="M13.8,39.7C8.8,34.7,6,28.1,6,21c0-7.1,2.8-13.7,7.8-18.7l1.4,1.4C10.5,8.3,8,14.5,8,21       c0,6.5,2.5,12.7,7.2,17.3L13.8,39.7z"
+   id="path4898"
+   style="fill:#80cc28;fill-opacity:1" />
+					<path
+   class="st2"
+   d="M42.1,27.6l-1.7-1.1c1-1.7,1.6-3.6,1.6-5.6c0-2.8-1.1-5.4-3.1-7.4l1.4-1.4c2.4,2.4,3.7,5.5,3.7,8.8       C44,23.4,43.3,25.6,42.1,27.6z"
+   id="path4900"
+   style="fill:#80cc28;fill-opacity:1" />
+					<path
+   class="st2"
+   d="M45.3,34.8l-1.4-1.4C47.2,30.1,49,25.7,49,21c0-4.7-1.8-9.1-5.1-12.4l1.4-1.4C49,10.9,51,15.8,51,21       C51,26.2,49,31.1,45.3,34.8z"
+   id="path4902"
+   style="fill:#80cc28;fill-opacity:1" />
+					<path
+   class="st2"
+   d="M50.2,39.7l-1.4-1.4C53.5,33.7,56,27.5,56,21c0-6.5-2.5-12.7-7.2-17.3l1.4-1.4c5,5,7.8,11.7,7.8,18.7       C58,28.1,55.2,34.7,50.2,39.7z"
+   id="path4904"
+   style="fill:#80cc28;fill-opacity:1" />
 				</g>
-				<g>
-					<path class="st2" d="M32,26c-3,0-5.5-2.5-5.5-5.5c0-3,2.5-5.5,5.5-5.5c3,0,5.5,2.5,5.5,5.5C37.5,23.5,35,26,32,26z M32,17
-						c-1.9,0-3.5,1.6-3.5,3.5c0,1.9,1.6,3.5,3.5,3.5c1.9,0,3.5-1.6,3.5-3.5C35.5,18.6,33.9,17,32,17z"/>
-					<path class="st2" d="M14,64c-0.1,0-0.2,0-0.4-0.1c-0.5-0.2-0.8-0.8-0.6-1.3l15.3-38.9c0.2-0.5,0.8-0.8,1.3-0.6
-						c0.5,0.2,0.8,0.8,0.6,1.3L14.9,63.4C14.8,63.8,14.4,64,14,64z"/>
-					<path class="st2" d="M50,64c-0.4,0-0.8-0.2-0.9-0.6L33.8,24.5c-0.2-0.5,0.1-1.1,0.6-1.3c0.5-0.2,1.1,0,1.3,0.6l15.3,38.9
-						c0.2,0.5-0.1,1.1-0.6,1.3C50.2,64,50.1,64,50,64z"/>
-					<path class="st2" d="M39.2,37H24.8c-0.6,0-1-0.4-1-1c0-0.6,0.4-1,1-1h14.4c0.6,0,1,0.4,1,1C40.2,36.6,39.7,37,39.2,37z"/>
-					<path class="st2" d="M44.7,51H19.3c-0.6,0-1-0.4-1-1c0-0.6,0.4-1,1-1h25.4c0.6,0,1,0.4,1,1C45.7,50.6,45.3,51,44.7,51z"/>
+				<g
+   id="g4918"
+   style="fill:#80cc28;fill-opacity:1">
+					<path
+   class="st2"
+   d="M32,26c-3,0-5.5-2.5-5.5-5.5c0-3,2.5-5.5,5.5-5.5c3,0,5.5,2.5,5.5,5.5C37.5,23.5,35,26,32,26z M32,17       c-1.9,0-3.5,1.6-3.5,3.5c0,1.9,1.6,3.5,3.5,3.5c1.9,0,3.5-1.6,3.5-3.5C35.5,18.6,33.9,17,32,17z"
+   id="path4908"
+   style="fill:#80cc28;fill-opacity:1" />
+					<path
+   class="st2"
+   d="M14,64c-0.1,0-0.2,0-0.4-0.1c-0.5-0.2-0.8-0.8-0.6-1.3l15.3-38.9c0.2-0.5,0.8-0.8,1.3-0.6       c0.5,0.2,0.8,0.8,0.6,1.3L14.9,63.4C14.8,63.8,14.4,64,14,64z"
+   id="path4910"
+   style="fill:#80cc28;fill-opacity:1" />
+					<path
+   class="st2"
+   d="M50,64c-0.4,0-0.8-0.2-0.9-0.6L33.8,24.5c-0.2-0.5,0.1-1.1,0.6-1.3c0.5-0.2,1.1,0,1.3,0.6l15.3,38.9       c0.2,0.5-0.1,1.1-0.6,1.3C50.2,64,50.1,64,50,64z"
+   id="path4912"
+   style="fill:#80cc28;fill-opacity:1" />
+					<path
+   class="st2"
+   d="M39.2,37H24.8c-0.6,0-1-0.4-1-1c0-0.6,0.4-1,1-1h14.4c0.6,0,1,0.4,1,1C40.2,36.6,39.7,37,39.2,37z"
+   id="path4914"
+   style="fill:#80cc28;fill-opacity:1" />
+					<path
+   class="st2"
+   d="M44.7,51H19.3c-0.6,0-1-0.4-1-1c0-0.6,0.4-1,1-1h25.4c0.6,0,1,0.4,1,1C45.7,50.6,45.3,51,44.7,51z"
+   id="path4916"
+   style="fill:#80cc28;fill-opacity:1" />
 				</g>
 			</g>
-			<g id="Arrows">
+			<g
+   id="Arrows"
+   style="fill:#80cc28;fill-opacity:1">
 			</g>
-			<g id="Router">
+			<g
+   id="Router"
+   style="fill:#80cc28;fill-opacity:1">
 			</g>
-			<g id="Folder">
+			<g
+   id="Folder"
+   style="fill:#80cc28;fill-opacity:1">
 			</g>
-			<g id="Smartphone_with_graph">
+			<g
+   id="Smartphone_with_graph"
+   style="fill:#80cc28;fill-opacity:1">
 			</g>
-			<g id="Speech_bubble">
+			<g
+   id="Speech_bubble"
+   style="fill:#80cc28;fill-opacity:1">
 			</g>
-			<g id="Structure">
+			<g
+   id="Structure"
+   style="fill:#80cc28;fill-opacity:1">
 			</g>
-			<g id="Microchip">
+			<g
+   id="Microchip"
+   style="fill:#80cc28;fill-opacity:1">
 			</g>
-			<g id="Man_with_cloud">
+			<g
+   id="Man_with_cloud"
+   style="fill:#80cc28;fill-opacity:1">
 			</g>
-			<g id="Screen">
+			<g
+   id="Screen"
+   style="fill:#80cc28;fill-opacity:1">
 			</g>
-			<g id="Phone_with_notification">
+			<g
+   id="Phone_with_notification"
+   style="fill:#80cc28;fill-opacity:1">
 			</g>
 		</g>
-		<g id="Emblem">
+		<g
+   id="Emblem"
+   style="fill:#80cc28;fill-opacity:1">
 		</g>
-		<g id="Layer_20">
+		<g
+   id="Layer_20"
+   style="fill:#80cc28;fill-opacity:1">
 		</g>
 	</g>
 </switch>
-<i:pgf  id="adobe_illustrator_pgf">
+<ns:pgf
+   id="adobe_illustrator_pgf">
 	<![CDATA[
 	eJzsvXuTGzfyIHh/K0LfgRcXs2FvjOhCoQqFsjcugk//vCfbOsszOxcTEwqqm5I4YpO9bLZkzae/
 zMSjABSKLLbYzYdJqCmyiEIBiUS+kfjL//nq9Yve9fLt9AXvJp3nz/7yl8FqOlkvV9936HLnp/n8
@@ -1742,5 +1873,5 @@ iLhQ//Vf/9uLhI/ODs0aXt5zDDPw9ShWXyCB3/6+/uF33//x5dNfP//461+vH3z1+dvvvtcfzeN+
 G4ndfssfX//l2ZJ/8X8+ffv5X3789N3/Y8Hf/vnTf36+ffr++x9++vTT5z/Jo9u3P37+808//PhZ
 qPiHv/ATfun+C7/4xe/+9z/+7d/8f+YCMH4=
 	]]>
-</i:pgf>
+</ns:pgf>
 </svg>
