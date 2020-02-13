@@ -40,3 +40,12 @@ green: #80cc28ff
 .section-header a:hover{
     text-decoration: underline;
 }
+
+.hero-welcome-message img {
+    padding-bottom: 30px;
+}
+
+.logo {
+    height: 45px;
+    width: auto;
+}
