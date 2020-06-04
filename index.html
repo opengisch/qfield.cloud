@@ -228,7 +228,8 @@
                                        required size="25" type="text" value="">
                                 <!--<select class="form-control"  id="LANGUAGE" name="LANGUAGE"><option value="en">en</option><option value="de">de</option><option value="fr">fr</option><option value="it">it</option></select>-->
                                 <input name="LANGUAGE" type="hidden" value="en">
-                                <select class="form-control" id="COUNTRY" name="COUNTRY">
+                                <select class="form-control" id="COUNTRY" name="COUNTRY" required>
+                                    <option value="" disabled selected>Select your country</option>
                                     <option value="Switzerland">Switzerland</option>
                                     <option value="Germany">Germany</option>
                                     <option value="Austria">Austria</option>
