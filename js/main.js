@@ -2,32 +2,31 @@ $(function () {
 	"use strict";
 
 
-
-
 	/* ==========================================================================
-       Sub Form   
+       newsletter Form
        ========================================================================== */
 
-
-	$('#mc-form').ajaxChimp({
-		callback: callbackFunction,
-		url: 'https://opengis.us3.list-manage.com/subscribe/post?u=2d414f4d56360dcbf83927721&amp;id=dfa55b9546&amp;SIGNUP=qfield.cloud'
-			// http://xxx.xxx.list-manage.com/subscribe/post?u=xxx&id=xxx
+	$( "#mc-form" ).submit(function(e) {
+		e.preventDefault(e);
+		let formData = $(this).serialize()
+		$.ajax({
+			url: "https://opengis.us3.list-manage.com/subscribe/post-json?c=?",
+			type: "POST",
+			crossDomain: true,
+			contentType: 'application/json',
+			data: formData,
+			dataType: "json",
+			success: function(data) {
+				$('#mc-error').slideUp();
+				$('#mc-success').slideDown();
+				$('#mc-form button').prop('disabled', true);
+			},
+			error: function() {
+				$('#mc-success').slideUp();
+				$('#mc-error').slideDown();
+			}
+		});
 	});
-
-
-	function callbackFunction(resp) {
-		if (resp.result === 'success') {
-			$('#mc-error').slideUp();
-			$('#mc-success').slideDown();
-			$('#mc-form button').prop('disabled', true);
-		} else if (resp.result === 'error') {
-			$('#mc-success').slideUp();
-			$('#mc-error').slideDown();
-		}
-	}
-
-
 
 
 	/* ==========================================================================
