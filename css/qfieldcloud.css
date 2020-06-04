@@ -47,8 +47,8 @@ green: #80cc28ff
     height: 45px;
     width: auto;
 }
-.signup-form select.form-control{
-    height: 4rem;
+#mc-form select.form-control{
+    height: 3rem;
     padding-top: 0 !important;
     padding-bottom: 0 !important;
 }
