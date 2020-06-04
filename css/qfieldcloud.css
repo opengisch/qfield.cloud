@@ -4,6 +4,9 @@ blue: #4c6dacff
 green: #80cc28ff
 */
 
+.hero-welcome-message h1{
+     color: white;
+ }
 .logo{
     width: 200px;
 }
@@ -23,11 +26,6 @@ green: #80cc28ff
 
 #hero-section div.signup-form{
     margin-bottom: 200px;
-}
-
-#features{
-    padding-top: 0;
-    margin-top: -100px;
 }
 
 #mc-email{
@@ -53,4 +51,8 @@ green: #80cc28ff
     height: 4rem;
     padding-top: 0 !important;
     padding-bottom: 0 !important;
+}
+.cta button{
+    background-color: white;
+    color: #4c6dacff ;
 }
