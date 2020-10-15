@@ -17,10 +17,17 @@ $(function () {
 			data: formData,
 			dataType: "json",
 			success: function(data) {
-				$('#mc-error').slideUp();
-				$('#mc-success').html(data.msg);
-				$('#mc-success').slideDown();
-				$('#mc-form button').prop('disabled', true);
+				if(data.result == 'error'){
+					$('#mc-success').slideUp();
+					$('#mc-error').html(data.msg)
+					$('#mc-error').slideDown();
+				}
+				else {
+					$('#mc-error').slideUp();
+					$('#mc-success').html(data.msg);
+					$('#mc-success').slideDown();
+					$('#mc-form button').prop('disabled', true);
+				}
 			},
 			error: function(xhr) {
 				$('#mc-success').slideUp();
