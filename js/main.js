@@ -18,10 +18,11 @@ $(function () {
 			dataType: "json",
 			success: function(data) {
 				$('#mc-error').slideUp();
+				$('#mc-success').html(data.msg);
 				$('#mc-success').slideDown();
 				$('#mc-form button').prop('disabled', true);
 			},
-			error: function() {
+			error: function(xhr) {
 				$('#mc-success').slideUp();
 				$('#mc-error').slideDown();
 			}
