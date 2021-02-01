@@ -21,6 +21,7 @@ green: #80cc28ff
 }
 
 .hero-welcome-message img{
+    width: 100%;
     padding-bottom: 230px;
 }
 
