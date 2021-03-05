@@ -6,6 +6,7 @@ green: #80cc28ff
 
 .hero-welcome-message h1{
      color: white;
+     text-shadow: -1px -1px 0 #4c6dac, 1px -1px 0 #4c6dac, -1px 1px 0 #4c6dac, 1px 1px 0 #4c6dac, -1px -1px 5px #4c6dac, 1px 1px 10px #4c6dac;
  }
 .logo{
     width: 200px;
