@@ -68,6 +68,6 @@ green: #80cc28ff
 iframe {
     display: block;       /* iframes are inline by default */
     border: none;         /* Reset default border */
-    height: 100vh;        /* Viewport-relative units */
+    height: 75vh;        /* Viewport-relative units */
     width: 100vw;
 }
