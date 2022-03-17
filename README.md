@@ -19,3 +19,7 @@
 python -m http.server
 # then open http://localhost:8000/
 ```
+
+## Principles
+
+We reuse app.qfield.cloud static files (mainly css). The files are copied to this repo for stability.
