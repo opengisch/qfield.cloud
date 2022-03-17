@@ -20,6 +20,14 @@ python -m http.server
 # then open http://localhost:8000/
 ```
 
+## Style
+
+Style is enforced with pre-commit. Before contributing, please run:
+```
+pip install pre-commit
+pre-commit install
+```
+
 ## Principles
 
 We reuse app.qfield.cloud static files (mainly css). The files are copied to this repo for stability.
