@@ -12,3 +12,10 @@
 - relation with app.qfield.cloud (similar design ?)
     => yes
     => include "open app" or similar
+
+## Develop
+
+```shell
+python -m http.server
+# then open http://localhost:8000/
+```
