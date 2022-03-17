@@ -198,11 +198,15 @@
             <header class="section-header">
               <h2>Stay updated</h2>
               <p>Join our newsletter for the latest news about QFieldCloud.</p>
+              <p id="mc-error" class="text-danger font-weight-bold" style="display: none">Something went wrong, please try again</p>
+              <p id="mc-success" class="text-success font-weight-bold" style="display: none">Subscription confirmed</p>
             </header>
+
           </div>
           <div class="col-6">
             <!-- signup form-->
-            <form id="mc-form" action="https://opengis.us3.list-manage.com/subscribe/post" method="POST">
+            <form id="mc-form">
+              <!--action="https://opengis.us3.list-manage.com/subscribe/post" method="POST">-->
               <div class="input-wrapper">
                 <input
                   name="u"
@@ -585,8 +589,6 @@
                 </select>
                 <button class="btn btn-primary" type="submit">Join now</button>
               </div>
-              <div id="mc-error">Something went wrong, please try again</div>
-              <div id="mc-success">Subscription confirmed</div>
             </form>
           </div>
         </div>
@@ -644,6 +646,9 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
       integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
       crossorigin="anonymous"
+    ></script>
+    <script
+      src="./js/main.js"
     ></script>
   </body>
 </html>
