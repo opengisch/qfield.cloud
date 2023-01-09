@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="h-100">
   <head>
+    <!--TODO remove all inline styling and use proper CSS-->
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -33,33 +34,29 @@
   </head>
 
   <body class="d-flex flex-column h-100">
-    <a class="qfc-ribbon" href="https://qfield.cloud/tos" target="_blank"
-      >BETA</a
-    >
-
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand navbar-light nav-fill w-100 bg-light">
+    <nav class="navbar navbar-expand navbar-light nav-fill w-100 bg-primary" >
       <a href="/">
         <img
-          src="img/app.qfield.cloud.logo_sidetext.238c7efd4d71.svg"
+          src="img/app.qfield.cloud.logo_sidetext.238c7efd4d71.white.svg"
           alt="QFieldCloud"
           class="logo-nav qfc-header-logo ml-1"
         />
       </a>
       <ul class="navbar-nav ml-auto">
         <li class="nav-item ml-2 d-none d-lg-block">
-          <a class="nav-link" href="./index.html#features">Features</a>
+          <a class="nav-link" href="#features">Features</a>
         </li>
         <li class="nav-item ml-2 d-none d-lg-block">
-          <a class="nav-link" href="./index.html#newsletter">Join newsletter</a>
+          <a class="nav-link" href="#newsletter">Join newsletter</a>
         </li>
         <li class="nav-item ml-2">
-          <a class="btn btn-secondary" href="https://app.qfield.cloud/accounts/signup/"
+          <a class="btn btn-primary" href="https://app.qfield.cloud/accounts/signup/"
             >Register</a
           >
         </li>
         <li class="nav-item ml-2">
-          <a class="btn btn-primary" href="https://app.qfield.cloud/"
+          <a class="btn btn-success" href="https://app.qfield.cloud/"
             >Sign In</a
           >
         </li>
@@ -68,10 +65,10 @@
 
     <!-- INTRO -->
     <div class="container w-100 py-4">
-      <div class="jumbotron bg-primary text-white my-4 w-100">
+      <div class="jumbotron my-4 w-100">
         <h1 class="display-4">
           <img
-            src="img/app.qfield.cloud.logo_sidetext.238c7efd4d71.white.svg"
+            src="img/app.qfield.cloud.logo_sidetext.238c7efd4d71.svg"
             alt="QFieldCloud"
             class="logo-nav w-50"
           />
@@ -124,7 +121,7 @@
             <div class="card-body d-flex flex-column justify-content-between">
               <h2 class="card-title pricing-card-title">Online and Offline</h2>
               <p>
-                Working in the wild? You can continue to work seamlessly with
+                Working in the wild ? You can continue to work seamlessly with
                 QFieldCloud, and sync back your changes once you're back in
                 town.
               </p>
@@ -672,5 +669,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="./js/main.js"></script>
+  
   </body>
 </html>
