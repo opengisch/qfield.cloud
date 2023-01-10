@@ -9,6 +9,7 @@
     border-radius: 30px;
     background: var(--white);
     text-align: center;
+    height: 42px;
   }
   .switch-wrapper [type="radio"] {
     position: absolute;
@@ -45,6 +46,7 @@
   }
   .switch-wrapper label:hover {
     background: var(--bs-gray-light);
+    height: 32px;
   }
   .switch-wrapper .highlighter {
     position: absolute;
