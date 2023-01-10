@@ -22,11 +22,18 @@
       href="css/app.qfield.cloud.qfieldcloud.c4ba69c576b7.css"
     />
     <link
+    rel="stylesheet"
+    type="text/css"
+    href="css/pricing.css"
+  />
+    <link
       rel="shortcut icon"
       type="image/png"
       href="img/app.qfield.cloud.favicon.cf57ef205b71.ico"
     />
     <title>QFieldCloud - Pricing</title>
+    
+
   </head>
   <body class="d-flex flex-column h-100">
     
@@ -72,7 +79,16 @@
             access to your projects.
           </p>
         </div>
-        <div class="card-deck mb-3 text-center">
+
+          <div class="switch-wrapper">
+            <input id="monthly" type="radio" name="switch">
+            <input id="yearly" type="radio" name="switch" checked>
+            <label for="monthly">Monthly</label>
+            <label for="yearly">Yearly</label>
+            <span class="highlighter"></span>
+          </div>
+
+        <div id="pricing" class="card-deck mb-3 text-center">
           <div class="card mb-4 box-shadow">
             <div class="card-header">
               <h4 class="my-0 font-weight-normal">Community</h4>
@@ -96,9 +112,13 @@
               <h4 class="my-0 font-weight-normal">Pro</h4>
             </div>
             <div class="card-body d-flex flex-column justify-content-between">
-              <h1 class="card-title pricing-card-title">
-                €12 <small class="text-muted">/ mo</small>
-              </h1>
+              <div class="price yearly">
+                <h1 class="card-title pricing-card-title">€12 <small class="text-muted">/ mo</small></h1>
+              </div>
+              <div class="price monthly hide">
+                <h1 class="card-title pricing-card-title">€15 <small class="text-muted">/ mo</small></h1>
+              </div>
+    
               <ul class="list-unstyled mt-3 mb-4">
                 <li>Everything included in Community</li>
                 <li>Basic collaboration on private projects</li>
@@ -117,14 +137,18 @@
               <h4 class="my-0 font-weight-normal">Organization</h4>
             </div>
             <div class="card-body d-flex flex-column justify-content-between">
-              <h1 class="card-title pricing-card-title">
-                €15 <small class="text-muted">/ user / mo</small>
-              </h1>
+              <div class="price yearly">
+                <h1 class="card-title pricing-card-title">€16 <small class="text-muted">/ user / mo</small></h1>
+              </div>
+              <div class="price monthly hide">
+                <h1 class="card-title pricing-card-title">€20 <small class="text-muted">/ user / mo</small></h1>
+              </div>
               <ul class="list-unstyled mt-3 mb-4">
+                <li></li>
                 <li>Everything included in Pro</li>
                 <li>Unlimited collaboration</li>
                 <li>Team management</li>
-                <li>Pay only for active users</li>
+                <li>Minimum two users, pay only for additional active users</li>
               </ul>
               
               <a
