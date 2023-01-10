@@ -8,6 +8,7 @@
     margin-bottom: 40px;
     border-radius: 30px;
     background: var(--white);
+    text-align: center;
   }
   .switch-wrapper [type="radio"] {
     position: absolute;
@@ -43,7 +44,7 @@
     transition: color 0.25s ease-in-out;
   }
   .switch-wrapper label:hover {
-    background: var(--lightgray);
+    background: var(--bs-gray-light);
   }
   .switch-wrapper .highlighter {
     position: absolute;
@@ -52,7 +53,7 @@
     width: calc(50% - 4px);
     height: calc(100% - 8px);
     border-radius: 30px;
-    background: var(--darkgreen);
+    background: var(--primary);
     transition: transform 0.25s ease-in-out;
   }
   div .hide {
