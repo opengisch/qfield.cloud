@@ -30,6 +30,7 @@
     />
 
     <title>QFieldCloud - TOS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/add-to-calendar-button@1/assets/css/atcb.min.css">
   </head>
 
   <body class="d-flex flex-column h-100">
@@ -75,10 +76,31 @@
           <h1 class="display-4">QFieldCloud ask-me-anything</h1>
         </div>
 
-        <p>
-          Join us in our QFieldCloud AMA (ask-me-anything) on Friday, 3 February 11:00 – 12:00 where you can ask QFieldCloud and QField developers any questions you might have.
+        <p style="text-align: justify;">
+          Join us in our QFieldCloud AMA (ask-me-anything) on Friday, 3 February 11:00 - 12:00 where you can ask QFieldCloud and QField developers any questions you might have.
         </p>
-
+        <div class="atcb" style="display:none;">
+          {
+            "name":"Reminder to star the add to calendar button repo",
+            "description":"Join us in our QFieldCloud AMA (ask-me-anything) on Friday, 3 February 11:00 - 12:00 where you can ask QFieldCloud and QField developers any questions you might have<br>→ [url]https://qfield.cloud/ama[/url]",
+            "startDate":"2023-02-03",
+            "endDate":"2023-02-03",
+            "startTime":"11:00",
+            "endTime":"12:00",
+            "location":"https://qfield.cloud/ama",
+            "options":[
+              "Apple",
+              "Google",
+              "iCal",
+              "Microsoft365",
+              "MicrosoftTeams",
+              "Outlook.com",
+              "Yahoo"
+            ],
+            "timeZone":"Europe/Berlin",
+            "iCalFileName":"Reminder-Event"
+          }
+          </div>
       </div>
     </main>
 
@@ -145,6 +167,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@1" async defer></script>
   </body>
 </html>
 
