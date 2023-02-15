@@ -45,6 +45,10 @@
   background-color: var(--bs-gray-light);
 }
 
+#accordion .btn{
+  text-align: left;
+}
+
 .svg-background {
   fill: none;
   padding: 0;
