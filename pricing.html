@@ -175,103 +175,115 @@
             Show detailed comparison
           </button>
           <table id="qfc-plan-pricing-comparison-table"
-          class="table table-striped collapse mx-3">
-          <thead>
-            <tr>
-              <th class="text-left text text-muted">Plan</th>
-              <th class="text-center text text-muted">Community</th>
-              <th class="text-center text text-muted">Pro</th>
-              <th class="text-center text text-muted">Organization</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="text-left">Public projects</td>
-              <td class="text-center">unlimited</td>
-              <td class="text-center">unlimited</td>
-              <td class="text-center">unlimited</td>
-            </tr>
-            <tr>
-              <td class="text-left">Private projects</td>
-              <td class="text-center">unlimited</td>
-              <td class="text-center">unlimited</td>
-              <td class="text-center">unlimited</td>
-            </tr>
-            <tr>
-              <td class="text-left">Public projects collaboration</td>
-              <td class="text-center text-primary">✓</td>
-              <td class="text-center text-primary">✓</td>
-              <td class="text-center text-primary">✓</td>
-            </tr>
-            <tr>
-              <td class="text-left">Private projects collaboration</td>
-              <td class="text-center text-primary">✗</td>
-              <td class="text-center">1 pro collaborator <a
-                href="#"
-                data-toggle="tooltip"
-                title="Collaborate with another Pro user in each owned project"
-                >ⓘ</a></td>
-                <td class="text-center">within organisation <a
-                  href="#"
-                  data-toggle="tooltip"
-                  title="Unlimited collaboration with the organisation members"
-                  >ⓘ</a></td>
-            </tr>
-            <tr>
-              <td class="text-left">Data hosting included</td>
-              <td class="text-center">100MB</td>
-              <td class="text-center">1GB <a
-                href="#"
-                data-toggle="tooltip"
-                title="Additional storage packages available at €5/GB"
-                >ⓘ</a></td>
-              <td class="text-center">
-                1GB
-                <a
-                  href="#"
-                  data-toggle="tooltip"
-                  title="The reserved storage can be chosen at an organization level and is invoiced monthly at €5/GB"
-                  >ⓘ</a>
-              </td>
-            </tr>
-            <tr>
-              <td class="text-left">File versions <a
-                href="#"
-                data-toggle="tooltip"
-                title="We keep track of your changed files so you can always restore previous versions"
-                >ⓘ</a></td>
-              <td class="text-center">3</td>
-              <td class="text-center">10</td>
-              <td class="text-center">10</td>
-            </tr>
-            <tr>
-              <td class="text-left">File based projects <a
-                href="#"
-                data-toggle="tooltip"
-                title="Use geopackages, GeoJSON, shapefiles, and any other file formats supported by QGIS"
-                >ⓘ</a></td>
-              <td class="text-center text-primary">✓</td>
-              <td class="text-center text-primary">✓</td>
-              <td class="text-center text-primary">✓</td>
-            </tr>
-            <tr>
-              <td class="text-left">Offline PostGIS layers support <a
-                href="#"
-                data-toggle="tooltip"
-                title="Connect your PostGIS DB for seamless integration in your SDI"
-                >ⓘ</a></td>
-              <td class="text-center text-primary">✗</td>
-              <td class="text-center text-primary">✓</td>
-              <td class="text-center text-primary">✓</td>
-            </tr>
-            <tr>
-              <td class="text-left">Support</td>
-              <td class="text-center">community</td>
-              <td class="text-center">premium</td>
-              <td class="text-center">premium</td>
-            </tr>
-          </tbody>
-        </table>            
+              class="table table-striped collapse mx-3">
+              <thead>
+                <tr>
+                  <th class="text-left text text-muted">Plan</th>
+                  <th class="text-center text text-muted">Community</th>
+                  <th class="text-center text text-muted">Pro</th>
+                  <th class="text-center text text-muted">Organization</th>
+                  <th class="text-center text text-muted">Private cloud</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="text-left">Public projects</td>
+                  <td class="text-center">unlimited</td>
+                  <td class="text-center">unlimited</td>
+                  <td class="text-center">unlimited</td>
+                  <td class="text-center">unlimited</td>
+                </tr>
+                <tr>
+                  <td class="text-left">Private projects</td>
+                  <td class="text-center">unlimited</td>
+                  <td class="text-center">unlimited</td>
+                  <td class="text-center">unlimited</td>
+                  <td class="text-center">unlimited</td>
+                </tr>
+                <tr>
+                  <td class="text-left">Public projects collaboration</td>
+                  <td class="text-center text-primary">✓</td>
+                  <td class="text-center text-primary">✓</td>
+                  <td class="text-center text-primary">✓</td>
+                  <td class="text-center text-primary">✓</td>
+                </tr>
+                <tr>
+                  <td class="text-left">Private projects collaboration</td>
+                  <td class="text-center text-primary">✗</td>
+                  <td class="text-center">1 pro collaborator <a
+                    href="#"
+                    data-toggle="tooltip"
+                    title="Collaborate with another Pro user in each owned project"
+                    >ⓘ</a></td>
+                    <td class="text-center">within organisation <a
+                      href="#"
+                      data-toggle="tooltip"
+                      title="Unlimited collaboration with the organisation members"
+                      >ⓘ</a></td>
+                      <td class="text-center">custom</td>
+                </tr>
+                <tr>
+                  <td class="text-left">Data hosting included</td>
+                  <td class="text-center">100MB</td>
+                  <td class="text-center">1GB <a
+                    href="#"
+                    data-toggle="tooltip"
+                    title="Additional storage packages available at €5/GB"
+                    >ⓘ</a></td>
+                  <td class="text-center">
+                    1GB
+                    <a
+                      href="#"
+                      data-toggle="tooltip"
+                      title="Additional reserved storage can be chosen at an organization level and is invoiced monthly at €5/GB"
+                      >ⓘ</a>
+                  </td>
+                  <td class="text-center">
+                    custom
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-left">File versions <a
+                    href="#"
+                    data-toggle="tooltip"
+                    title="We keep track of your changed files so you can always restore previous versions"
+                    >ⓘ</a></td>
+                  <td class="text-center">3</td>
+                  <td class="text-center">10</td>
+                  <td class="text-center">10</td>
+                  <td class="text-center">custom</td>
+                </tr>
+                <tr>
+                  <td class="text-left">File based projects <a
+                    href="#"
+                    data-toggle="tooltip"
+                    title="Use geopackages, GeoJSON, shapefiles, and any other file formats supported by QGIS"
+                    >ⓘ</a></td>
+                  <td class="text-center text-primary">✓</td>
+                  <td class="text-center text-primary">✓</td>
+                  <td class="text-center text-primary">✓</td>
+                  <td class="text-center text-primary">✓</td>
+                </tr>
+                <tr>
+                  <td class="text-left">Offline PostGIS layers support <a
+                    href="#"
+                    data-toggle="tooltip"
+                    title="Connect your PostGIS DB for seamless integration in your SDI"
+                    >ⓘ</a></td>
+                  <td class="text-center text-primary">✗</td>
+                  <td class="text-center text-primary">✓</td>
+                  <td class="text-center text-primary">✓</td>
+                  <td class="text-center text-primary">✓</td>
+                </tr>
+                <tr>
+                  <td class="text-left">Support</td>
+                  <td class="text-center">community</td>
+                  <td class="text-center">premium</td>
+                  <td class="text-center">premium</td>
+                  <td class="text-center">custom</td>
+                </tr>
+              </tbody>
+            </table>        
 
         </div>
       </div>
