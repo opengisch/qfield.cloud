@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /yearly-payment.html
+Disallow: /dev.html
+Disallow: /maintenance.html
+Allow: /
