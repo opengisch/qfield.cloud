@@ -12,9 +12,9 @@ $(function () {
   const costs = $("#costs");
 
   function updateCosts() {
-    let users_val = users.val()
-    let storage_val = storage.val()
-    let total = (users_val * MONTHLY_USER + (storage_val - 1) * MONTHLY_GB) * 12;
+    const users_val = users.val()
+    const storage_val = storage.val()
+    const total = (users_val * MONTHLY_USER + (storage_val - 1) * MONTHLY_GB) * 12;
     costs.val(total);
   }
 
