@@ -17,7 +17,7 @@ $(function () {
     const storage_val = storage.val()
     
     const total = (Math.max(users_val, 2) * MONTHLY_USER + Math.max((storage_val - 1), 0) * MONTHLY_GB) * 12;
-    costs.val(total);
+    costs.val(total + ' €');
   }
 
   function updateForm(){
