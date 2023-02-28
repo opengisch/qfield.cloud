@@ -14,7 +14,7 @@ $(function () {
   function updateCosts() {
     let users_val = users.val()
     let storage_val = storage.val()
-    let total = users_val * MONTHLY_USER + (storage_val - 1) * MONTHLY_GB;
+    let total = (users_val * MONTHLY_USER + (storage_val - 1) * MONTHLY_GB) * 12;
     costs.val(total);
   }
 
