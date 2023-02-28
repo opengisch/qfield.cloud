@@ -18,11 +18,11 @@ $(function () {
     costs.val(total);
   }
 
-  users.change(function () {
+  users.on('input', function () {
     updateCosts();
   });
 
-  storage.change(function () {
+  storage.on('input', function () {
     updateCosts();
   });
 });
