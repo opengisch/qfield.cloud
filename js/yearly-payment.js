@@ -18,13 +18,14 @@ $(function () {
     
     const total = (Math.max(users_val, 2) * MONTHLY_USER + Math.max((storage_val - 1), 0) * MONTHLY_GB) * 12;
     costs.val(total);
-    updateForm(users_val, storage_val)
   }
 
-  function updateForm(users, storage){
-    const params = `&Total%20GB%20needed=${storage}&Number%20of%20collaborators=${users}`
+  function updateForm(){
+    const users_val = users.val()
+    const storage_val = storage.val()
+
     const form_url = "https://forms.clickup.com/2192114/f/22wqj-21867/FV88S70BQG7ERZ65R9?monthly_gb_price=5&monthly_user_price=16"
-    // &Total%20GB%20needed=10&Number%20of%20collaborators=4
+    const params = `&Total%20GB%20needed=${storage_val}&Number%20of%20collaborators=${users_val}`
     const url = form_url + params
     iframe.attr('src', url);
     console.log(url);
@@ -38,4 +39,11 @@ $(function () {
   storage.on('input', function () {
     updateCosts();
   });
+
+
+  $('#calculatorModal').modal('show');
+  $("#calculatorModal").on("click",".btn-primary", function(){
+    updateForm();
+    $('#calculatorModal').modal('hide');
+ });
 });

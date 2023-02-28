@@ -66,6 +66,95 @@
     <!-- maintenance -->
     <main role="main" class="p-3">
       <div class="container">
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="calculatorModal"
+          data-backdrop="static"
+          data-keyboard="false"
+          tabindex="-1"
+          aria-labelledby="calculatorModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="calculatorModalLabel">
+                  Yearly costs calculator
+                </h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div id="calculator" class="bg-light border p-2 mb-2">
+                  <div class="mb-3 row">
+                    <label for="users" class="col-sm-2 col-form-label"
+                      >Collaborators</label
+                    >
+                    <div class="col-sm-10">
+                      <input
+                        class="form-control"
+                        id="users"
+                        type="number"
+                        value="2"
+                        min="2"
+                        step="1"
+                      />
+                    </div>
+                  </div>
+                  <div class="mb-3 row">
+                    <label for="storage" class="col-sm-2 col-form-label"
+                      >Storage GB</label
+                    >
+                    <div class="col-sm-10">
+                      <input
+                        class="form-control"
+                        id="storage"
+                        type="number"
+                        value="1"
+                        min="1"
+                        step="1"
+                      />
+                    </div>
+                  </div>
+                  <div class="mb-3 row">
+                    <label for="costs" class="col-sm-2 col-form-label"
+                      >Yearly costs (€)</label
+                    >
+                    <div class="col-sm-10">
+                      <input
+                        type="text"
+                        readonly
+                        class="form-control-plaintext"
+                        id="costs"
+                        value="384"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Cancel
+                </button>
+                <button type="button" class="btn btn-primary">
+                  Apply to order
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div
           class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center"
         >
@@ -85,41 +174,15 @@
           requested service start date or payment clearance, whichever comes
           last.
         </p>
-        <p>Here you can calculate your yearly costs</p>
-        <div id="calculator" class="bg-light border p-2 mb-2">
-        <div class="mb-3 row">
-          <label for="users" class="col-sm-2 col-form-label">Collaborators</label>
-          <div class="col-sm-10">
-            <input
-                class="form-control"
-                id="users"
-                type="number"
-                value="2"
-                min="2"
-                step="1"
-              />
-          </div>
-        </div>
-        <div class="mb-3 row">
-          <label for="storage" class="col-sm-2 col-form-label">Storage GB</label>
-          <div class="col-sm-10">
-            <input
-                class="form-control"
-                id="storage"
-                type="number"
-                value="1"
-                min="1"
-                step="1"
-              />
-          </div>
-        </div>
-        <div class="mb-3 row">
-          <label for="costs" class="col-sm-2 col-form-label">Yearly costs (€)</label>
-          <div class="col-sm-10">
-            <input type="text" readonly class="form-control-plaintext" id="costs" value="384">
-          </div>
-        </div>
-        </div>
+        <!-- Button trigger modal -->
+        <button
+          type="button"
+          class="btn btn-primary mb-3"
+          data-toggle="modal"
+          data-target="#calculatorModal"
+        >
+          Relaunch cost calculator (this wil clear the form below)
+        </button>
         <iframe
           id="request-form"
           class="clickup-embed clickup-dynamic-height"
