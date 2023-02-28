@@ -13,37 +13,39 @@ $(function () {
   const iframe = $("#request-form");
 
   function updateCosts() {
-    const users_val = users.val()
-    const storage_val = storage.val()
-    
-    const total = (Math.max(users_val, 2) * MONTHLY_USER + Math.max((storage_val - 1), 0) * MONTHLY_GB) * 12;
-    costs.val(total + ' €');
+    const users_val = users.val();
+    const storage_val = storage.val();
+
+    const total =
+      (Math.max(users_val, 2) * MONTHLY_USER +
+        Math.max(storage_val - 1, 0) * MONTHLY_GB) *
+      12;
+    costs.val(total + " €");
   }
 
-  function updateForm(){
-    const users_val = users.val()
-    const storage_val = storage.val()
+  function updateForm() {
+    const users_val = users.val();
+    const storage_val = storage.val();
 
-    const form_url = "https://forms.clickup.com/2192114/f/22wqj-21867/FV88S70BQG7ERZ65R9?monthly_gb_price=5&monthly_user_price=16"
-    const params = `&Total%20GB%20needed=${storage_val}&Number%20of%20collaborators=${users_val}`
-    const url = form_url + params
-    iframe.attr('src', url);
+    const form_url =
+      "https://forms.clickup.com/2192114/f/22wqj-21867/FV88S70BQG7ERZ65R9?monthly_gb_price=5&monthly_user_price=16";
+    const params = `&Total%20GB%20needed=${storage_val}&Number%20of%20collaborators=${users_val}`;
+    const url = form_url + params;
+    iframe.attr("src", url);
     console.log(url);
-
   }
 
-  users.on('input', function () {
+  users.on("input", function () {
     updateCosts();
   });
 
-  storage.on('input', function () {
+  storage.on("input", function () {
     updateCosts();
   });
 
-
-  $('#calculatorModal').modal('show');
-  $("#calculatorModal").on("click",".btn-primary", function(){
+  $("#calculatorModal").modal("show");
+  $("#calculatorModal").on("click", ".btn-primary", function () {
     updateForm();
-    $('#calculatorModal').modal('hide');
- });
+    $("#calculatorModal").modal("hide");
+  });
 });
