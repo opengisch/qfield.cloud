@@ -32,8 +32,8 @@ $(function () {
     const storage_val = storage.val();
 
     const form_url =
-      "https://forms.clickup.com/2192114/f/22wqj-21867/FV88S70BQG7ERZ65R9?monthly_gb_price=5&monthly_user_price=16";
-    const params = `&Total%20GB%20needed=${storage_val}&Number%20of%20collaborators=${users_val}`;
+      "https://forms.clickup.com/2192114/f/22wqj-21867/FV88S70BQG7ERZ65R9?";
+    const params = `monthly_gb_price=${MONTHLY_GB}&monthly_user_price=${MONTHLY_USER}&setup_fee=${SETUP_FEE}&Total%20GB%20needed=${storage_val}&Number%20of%20collaborators=${users_val}`;
     const url = form_url + params;
     iframe.attr("src", url);
     console.log(url);
