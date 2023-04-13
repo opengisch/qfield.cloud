@@ -6,10 +6,12 @@ $(function () {
      ========================================================================== */
   const MONTHLY_USER = 16;
   const MONTHLY_GB = 5;
+  const SETUP_FEE = 150;
 
   const users = $("#users");
   const storage = $("#storage");
   const costs = $("#costs");
+  const setup = $("#setup");
   const iframe = $("#request-form");
 
   function updateCosts() {
@@ -17,9 +19,11 @@ $(function () {
     const storage_val = storage.val();
 
     const total =
-      (Math.max(users_val, 2) * MONTHLY_USER +
+    SETUP_FEE + (Math.max(users_val, 2) * MONTHLY_USER +
         Math.max(storage_val - 1, 0) * MONTHLY_GB) *
       12;
+    
+    setup.val(SETUP_FEE + " €");
     costs.val(total + " €");
   }
 
