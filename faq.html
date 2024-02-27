@@ -1120,6 +1120,47 @@
               </div>
             </div>
           </div>
+          <div class="card">
+            <div class="card-header" id="heading32">
+              <h5 class="mb-0">
+                <button
+                  class="btn btn-link"
+                  data-toggle="collapse"
+                  data-target="#collapse32"
+                  aria-expanded="false"
+                  aria-controls="collapse32"
+                >
+                  Why are my changes are not showing up?
+                </button>
+              </h5>
+            </div>
+
+            <div
+              id="collapse32"
+              class="collapse"
+              aria-labelledby="heading32"
+              data-parent="#accordion"
+            >
+              <div class="card-body">
+                <ol>
+                  <li>
+                    <strong>Check Data Format Compatibility:</strong> Ensure that your data is in a recommended format, such as GeoPackage (.gpkg) or PostgreSQL. Using incompatible formats can cause issues with data and synchronization.
+                  </li>
+                  <li>
+                    <strong>Sync Local Changes with Cloud:</strong> Verify that your local changes are synchronized with the latest version of the QFieldCloud project.
+                  </li>
+                  <li>
+                    <strong>Navigate to the Project Path:</strong> Open the project from its designated path in your file system. Typically, this would be located at <em>../{user}/QField/cloud/{Project name}/</em>. Navigating directly to the project path ensures you're working with the correct files and directories.
+                  </li>
+                  <li>
+                    <strong>Confirm Changes were applied Successfully:</strong> After pushing changes from QField, confirm whether they were successfully applied and checking data in the changes section of QFieldCloud.
+                  </li>
+                </ol>
+
+                <br /><span class="badge badge-primary">#qfieldcloud</span>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div style="text-align: center">
