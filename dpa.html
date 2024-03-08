@@ -29,7 +29,7 @@
       href="img/favicon.ico"
     />
 
-    <title>QFieldCloud - TOS</title>
+    <title>QFieldCloud - Data processing</title>
   </head>
 
   <body class="d-flex flex-column h-100">
@@ -68,51 +68,29 @@
         </ul>
       </nav>
 
-    <!-- SECURITY SPECIFICATIONS -->
+    <!-- DPA SPECIFICATIONS -->
     <main role="main" class="p-3">
       <div class="container">
         <div
           class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center"
         >
-          <h1 class="display-4">QFieldCloud Security Specifications</h1>
+          <h1 class="display-4">QFieldCloud data processing doumentation</h1>
         </div>
         <div class="alert alert-warning" role="alert">
           For further legal and compliance information see <a href="legal.html">legal & compliance</a>
         </div>
-        <p>Last updated: February 3, 2024</p><!--When updating, please also add a new revision in the last paragraph-->
-        <p>Making the security of your data a top priority is integral to our commitment at QFieldCloud. We understand that trusting an external entity with your data is a significant decision.</p>
-        <h2>Overview of Security Measures</h2>
-        <p>The QFieldCloud service is protected by security measures on several levels. This includes hardening the infrastructure with a firewall and an intrusion detection system as well as regular backups, monitoring, encryption and following best practices for developing and deploying the system.</p>
-        <h2>Encrpytion</h2>
-        <p>All communication with QFieldCloud is encrypted via SSL / HTTPS.</p>
-        <h2>Access Control</h2>
-        <p>The service uses Role Based Access Control. Users need to authenticate with username and password or token. Authorization is managed based on organization, team and user configuration.</p>
-        <h2>Incident Response and Monitoring</h2>
-        <p>We are constantly monitoring our services and receive alerts whenever something unexpected happens. This gives us the possibility to react quickly and efficiently.</p>
-        <p>When incidents are detected we keep our users informed about the status via <a href="https://status.qfield.cloud">status.qfield.cloud</a> and provide follow-up analysis on incidents.</p>
-        <h2>Data Backup and Recovery</h2>
-        <p>All data stored within QFieldCloud is regularly backed up in a different location. Some of the data is replicated in real time, other parts are backed up based on a regular schedule which guarantees that no data older than 12 hours is without a backup.</p>
-        <h2>Payment</h2>
-        <p>Payments are  handled by Stripe, a certified PCI Service Provider Level 1.</p>
-        <p>We do not store any credit card information; we only store identifiers that reference Stripe data.</p>
-        <h2>Compliance</h2>
-        <p>QFieldCloud is compliant with relevant data protection laws and regulations; for more detail consult the <a href="legal.html">legal & compliance page</a>.</p>
-        <p>Data is processed in data centers within Switzerland, operated by Exoscale and flow.swiss. All data centers are ISO 27001 certified.</p>
-        <h2>Software Development Security</h2>
-        <p>Security is a fundamental subject throughout the development of QFieldCloud. Each code change is reviewed thoroughly before being integrated into a release. We also maintain a comprehensive suite of tests which is continuously run on the code base.</p>
-        <h2>Third-Party Security</h2>
+        <div>
+        <p>The SaaS <a href="https://app.qfield.cloud" target="_blank">app.qfield.cloud</a> is a service offered by <a href="https://www.zefix.ch/en/search/entity/list/firm/1573222" target="_blank">QFieldCloud GmbH</a>, a Swiss company based in Laax.
+        </p><p>The service runs on Exoscale and Flow.swiss state-of-the-art ISO27001 certified datacenters located in Switzerland and subject to Swiss data protection laws.
+        </p><p>Here you can find more information on the processors we work with:</p>
         <ul>
-          <li>Stripe is used for payment processing. The connection to Stripe is encrypted and authenticated. All errors during payment failures are stored by Stripe for detailed logging. All sensitive information like tokens is removed before transmission.
-          <li>Sentry is integrated for performance and error monitoring. User identifiers as well as error messages are attached to errors. The connection to Sentry is encrypted and authenticated. All sensitive information such as tokens and passwords is removed before any data is sent to Sentry.
-        </ul>
-        <h2>Contact Information</h2>
-        <p>If you need to get in touch with the team for critical security purposes, please reach out to <a href="mailto:security@qfield.org">security@qfield.org</a>.</p>
-        <h2>Updates and Revision History</h2>
-        <p>We are committed to continue to improve and document security and will keep this information updated as security of QFieldCloud evolves over time.</p>
-        <ul>
-          <!--when adding a new version also update the date at the top of the page-->
-          <li>3.2.2024	- Initial version</li>
-        </ul>
+        <li><a href="https://www.exoscale.com/dpa">Exoscale data processing agreement</a></li>
+        <li><a href="https://www.exoscale.com/compliance">Exoscale compliance information</a></li>
+        <li><a href="https://flow.swiss/gtc">Flow data processing agreement</a></li>     
+        <li><a href="https://flow.swiss/compliance">Flow compliance information</a></li>        
+        <li><a href="https://stripe.com/legal/dpa">Stripe data processing agreement</a></li>
+        <li><a href="https://docs.stripe.com/security">Stripe compliance information</a></li>
+      </ul></div>
 
       </div>
     </main>
