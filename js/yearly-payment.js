@@ -22,7 +22,7 @@ $(function () {
     SETUP_FEE + (Math.max(users_val, 2) * MONTHLY_USER +
         Math.max(storage_val - 1, 0) * MONTHLY_GB) *
       12;
-    
+
     setup.val(SETUP_FEE + " €");
     costs.val(total + " €");
   }
@@ -52,4 +52,6 @@ $(function () {
     updateForm();
     $("#calculatorModal").modal("hide");
   });
+
+  updateCosts();
 });
