@@ -55,7 +55,7 @@
 </style>
 <switch
    id="switch5098"
-   style="fill:#80cc28;fill-opacity:1">
+   style="fill:#4a6fae;fill-opacity:1">
 	<foreignObject
    requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/"
    x="0"
@@ -69,11 +69,11 @@
 	<g
    ns:extraneous="self"
    id="g5096"
-   style="fill:#80cc28;fill-opacity:1">
+   style="fill:#4a6fae;fill-opacity:1">
 		<g
    id="Background"
    class="st0"
-   style="fill:#80cc28;fill-opacity:1">
+   style="fill:#4a6fae;fill-opacity:1">
 			<rect
    x="-359"
    y="-127"
@@ -81,119 +81,119 @@
    width="500"
    height="550"
    id="rect5048"
-   style="fill:#80cc28;fill-opacity:1" />
+   style="fill:#4a6fae;fill-opacity:1" />
 		</g>
 		<g
    id="Icons"
-   style="fill:#80cc28;fill-opacity:1">
+   style="fill:#4a6fae;fill-opacity:1">
 			<g
    id="Champion"
-   style="fill:#80cc28;fill-opacity:1">
+   style="fill:#4a6fae;fill-opacity:1">
 			</g>
 			<g
    id="Man_with_big_coin"
-   style="fill:#80cc28;fill-opacity:1">
+   style="fill:#4a6fae;fill-opacity:1">
 			</g>
 			<g
    id="Presentation"
-   style="fill:#80cc28;fill-opacity:1">
+   style="fill:#4a6fae;fill-opacity:1">
 			</g>
 			<g
    id="Zig-zag_arrows"
-   style="fill:#80cc28;fill-opacity:1">
+   style="fill:#4a6fae;fill-opacity:1">
 			</g>
 			<g
    id="Head_with_thunderstorm"
-   style="fill:#80cc28;fill-opacity:1">
+   style="fill:#4a6fae;fill-opacity:1">
 			</g>
 			<g
    id="Umbrella"
-   style="fill:#80cc28;fill-opacity:1">
+   style="fill:#4a6fae;fill-opacity:1">
 			</g>
 			<g
    id="Light_bulb_with_gear"
-   style="fill:#80cc28;fill-opacity:1">
+   style="fill:#4a6fae;fill-opacity:1">
 			</g>
 			<g
    id="Magnifier"
-   style="fill:#80cc28;fill-opacity:1">
+   style="fill:#4a6fae;fill-opacity:1">
 			</g>
 			<g
    id="People_with_speech"
-   style="fill:#80cc28;fill-opacity:1">
+   style="fill:#4a6fae;fill-opacity:1">
 			</g>
 			<g
    id="Arrows"
-   style="fill:#80cc28;fill-opacity:1">
+   style="fill:#4a6fae;fill-opacity:1">
 			</g>
 			<g
    id="Folder_with_document"
-   style="fill:#80cc28;fill-opacity:1">
+   style="fill:#4a6fae;fill-opacity:1">
 			</g>
 			<g
    id="Scales"
-   style="fill:#80cc28;fill-opacity:1">
+   style="fill:#4a6fae;fill-opacity:1">
 			</g>
 			<g
    id="Man_with_structure"
-   style="fill:#80cc28;fill-opacity:1">
+   style="fill:#4a6fae;fill-opacity:1">
 				<g
    id="g5073"
-   style="fill:#80cc28;fill-opacity:1">
+   style="fill:#4a6fae;fill-opacity:1">
 					<path
    class="st2"
    d="M32,11.4c-3.1,0-5.7-2.6-5.7-5.7C26.3,2.6,28.9,0,32,0c3.1,0,5.7,2.6,5.7,5.7C37.7,8.8,35.1,11.4,32,11.4z        M32,2c-2,0-3.7,1.7-3.7,3.7c0,2,1.7,3.7,3.7,3.7c2,0,3.7-1.7,3.7-3.7C35.7,3.7,34,2,32,2z"
    id="path5063"
-   style="fill:#80cc28;fill-opacity:1" />
+   style="fill:#4a6fae;fill-opacity:1" />
 					<path
    class="st2"
    d="M37,45H27c-2,0-3.6-1.6-3.6-3.6V17.3c0-0.6,0.4-1,1-1c0.6,0,1,0.4,1,1v24.1c0,0.9,0.7,1.7,1.6,1.7h10       c0.9,0,1.6-0.7,1.6-1.6V17.3c0-0.6,0.4-1,1-1c0.6,0,1,0.4,1,1v24.1C40.6,43.4,39,45,37,45z"
    id="path5065"
-   style="fill:#80cc28;fill-opacity:1" />
+   style="fill:#4a6fae;fill-opacity:1" />
 					<path
    class="st2"
    d="M21.7,29.8c-2,0-3.7-1.6-3.7-3.7v-7.9c0-5.4,3.2-8.8,8.4-8.8H32c0.6,0,1,0.4,1,1c0,0.6-0.4,1-1,1h-5.6       c-4.1,0-6.4,2.5-6.4,6.8v7.9c0,0.9,0.8,1.7,1.7,1.7c0.9,0,1.7-0.8,1.7-1.7c0-0.6,0.4-1,1-1c0.6,0,1,0.4,1,1       C25.4,28.1,23.7,29.8,21.7,29.8z"
    id="path5067"
-   style="fill:#80cc28;fill-opacity:1" />
+   style="fill:#4a6fae;fill-opacity:1" />
 					<path
    class="st2"
    d="M42.3,29.8c-2,0-3.7-1.6-3.7-3.7c0-0.6,0.4-1,1-1c0.6,0,1,0.4,1,1c0,0.9,0.8,1.7,1.7,1.7       c0.9,0,1.7-0.8,1.7-1.7v-7.9c0-4.3-2.3-6.8-6.4-6.8H32c-0.6,0-1-0.4-1-1c0-0.6,0.4-1,1-1h5.6c5.2,0,8.4,3.4,8.4,8.8v7.9       C46,28.1,44.4,29.8,42.3,29.8z"
    id="path5069"
-   style="fill:#80cc28;fill-opacity:1" />
+   style="fill:#4a6fae;fill-opacity:1" />
 					<path
    class="st2"
    d="M32,45c-0.6,0-1-0.4-1-1V32c0-0.6,0.4-1,1-1c0.6,0,1,0.4,1,1v12C33,44.6,32.6,45,32,45z"
    id="path5071"
-   style="fill:#80cc28;fill-opacity:1" />
+   style="fill:#4a6fae;fill-opacity:1" />
 				</g>
 				<g
    id="g5087"
-   style="fill:#80cc28;fill-opacity:1">
+   style="fill:#4a6fae;fill-opacity:1">
 					<path
    class="st2"
    d="M32.5,64C30,64,28,62,28,59.5c0-2.5,2-4.5,4.5-4.5c2.5,0,4.5,2,4.5,4.5C37,62,35,64,32.5,64z M32.5,57       c-1.4,0-2.5,1.1-2.5,2.5c0,1.4,1.1,2.5,2.5,2.5c1.4,0,2.5-1.1,2.5-2.5C35,58.1,33.9,57,32.5,57z"
    id="path5075"
-   style="fill:#80cc28;fill-opacity:1" />
+   style="fill:#4a6fae;fill-opacity:1" />
 					<path
    class="st2"
    d="M5,64c-2.5,0-4.5-2-4.5-4.5C0.5,57,2.5,55,5,55c2.5,0,4.5,2,4.5,4.5C9.5,62,7.5,64,5,64z M5,57       c-1.4,0-2.5,1.1-2.5,2.5C2.5,60.9,3.6,62,5,62c1.4,0,2.5-1.1,2.5-2.5C7.5,58.1,6.4,57,5,57z"
    id="path5077"
-   style="fill:#80cc28;fill-opacity:1" />
+   style="fill:#4a6fae;fill-opacity:1" />
 					<path
    class="st2"
    d="M6,56H4v-3.5C4,50,6,48,8.5,48h24v2h-24C7.1,50,6,51.1,6,52.5V56z"
    id="path5079"
-   style="fill:#80cc28;fill-opacity:1" />
+   style="fill:#4a6fae;fill-opacity:1" />
 					<path
    class="st2"
    d="M60.5,56h-2v-3.5c0-1.4-1.1-2.5-2.5-2.5H32.5v-2H56c2.5,0,4.5,2,4.5,4.5V56z"
    id="path5081"
-   style="fill:#80cc28;fill-opacity:1" />
+   style="fill:#4a6fae;fill-opacity:1" />
 					<path
    class="st2"
    d="M59.5,64C57,64,55,62,55,59.5c0-2.5,2-4.5,4.5-4.5c2.5,0,4.5,2,4.5,4.5C64,62,62,64,59.5,64z M59.5,57       c-1.4,0-2.5,1.1-2.5,2.5c0,1.4,1.1,2.5,2.5,2.5c1.4,0,2.5-1.1,2.5-2.5C62,58.1,60.9,57,59.5,57z"
    id="path5083"
-   style="fill:#80cc28;fill-opacity:1" />
+   style="fill:#4a6fae;fill-opacity:1" />
 					<rect
    x="31.5"
    y="49"
@@ -201,29 +201,29 @@
    width="2"
    height="7"
    id="rect5085"
-   style="fill:#80cc28;fill-opacity:1" />
+   style="fill:#4a6fae;fill-opacity:1" />
 				</g>
 			</g>
 			<g
    id="Key"
-   style="fill:#80cc28;fill-opacity:1">
+   style="fill:#4a6fae;fill-opacity:1">
 			</g>
 			<g
    id="Mountain"
-   style="fill:#80cc28;fill-opacity:1">
+   style="fill:#4a6fae;fill-opacity:1">
 			</g>
 			<g
    id="Lock"
-   style="fill:#80cc28;fill-opacity:1">
+   style="fill:#4a6fae;fill-opacity:1">
 			</g>
 		</g>
 		<g
    id="Emblem"
-   style="fill:#80cc28;fill-opacity:1">
+   style="fill:#4a6fae;fill-opacity:1">
 		</g>
 		<g
    id="Layer_20"
-   style="fill:#80cc28;fill-opacity:1">
+   style="fill:#4a6fae;fill-opacity:1">
 		</g>
 	</g>
 </switch>
