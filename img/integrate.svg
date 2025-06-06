@@ -53,7 +53,7 @@
 </style>
 <switch
    id="switch1715"
-   style="fill:#4c6dac;fill-opacity:1">
+   style="fill:#80cc28;fill-opacity:1">
 	<foreignObject
    requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/"
    x="0"
@@ -65,11 +65,11 @@
 	<g
    i:extraneous="self"
    id="g1713"
-   style="fill:#4c6dac;fill-opacity:1">
+   style="fill:#80cc28;fill-opacity:1">
 		<g
    id="Background"
    class="st0"
-   style="fill:#4c6dac;fill-opacity:1">
+   style="fill:#80cc28;fill-opacity:1">
 			<rect
    x="-265"
    y="-409"
@@ -77,31 +77,31 @@
    width="500"
    height="550"
    id="rect1679"
-   style="fill:#4c6dac;fill-opacity:1" />
+   style="fill:#80cc28;fill-opacity:1" />
 		</g>
 		<g
    id="Icons"
-   style="fill:#4c6dac;fill-opacity:1">
+   style="fill:#80cc28;fill-opacity:1">
 			<g
    id="Star"
-   style="fill:#4c6dac;fill-opacity:1">
+   style="fill:#80cc28;fill-opacity:1">
 			</g>
 			<g
    id="Puzzle_pieces"
-   style="fill:#4c6dac;fill-opacity:1">
+   style="fill:#80cc28;fill-opacity:1">
 				<path
    class="st2"
    d="M32,64H1c-0.6,0-1-0.4-1-1V32c0-0.6,0.4-1,1-1h9v-2.4c0-3.6,2.9-6.5,6.5-6.5c3.6,0,6.5,2.9,6.5,6.5V31h9      c0.6,0,1,0.4,1,1v10c0,0.6-0.4,1-1,1h-3.5c-2.5,0-4.5,2-4.5,4.5c0,2.5,2,4.5,4.5,4.5H32c0.6,0,1,0.4,1,1V63      C33,63.6,32.6,64,32,64z M2,62h29v-7.9h-2.5c-3.6,0-6.5-2.9-6.5-6.5c0-3.6,2.9-6.5,6.5-6.5H31v-8h-9c-0.6,0-1-0.4-1-1v-3.4      c0-2.5-2-4.5-4.5-4.5c-2.5,0-4.5,2-4.5,4.5V32c0,0.6-0.4,1-1,1H2V62z"
    id="path1683"
-   style="fill:#4c6dac;fill-opacity:1" />
+   style="fill:#80cc28;fill-opacity:1" />
 				<path
    class="st2"
    d="M47.5,41.9c-3.6,0-6.5-2.9-6.5-6.5V33h-9c-0.6,0-1-0.4-1-1V22c0-0.6,0.4-1,1-1h3.5c2.5,0,4.5-2,4.5-4.5      c0-2.5-2-4.5-4.5-4.5H32c-0.6,0-1-0.4-1-1V1c0-0.6,0.4-1,1-1h31c0.6,0,1,0.4,1,1v31c0,0.6-0.4,1-1,1h-9v2.4      C54,39,51.1,41.9,47.5,41.9z M33,31h9c0.6,0,1,0.4,1,1v3.4c0,2.5,2,4.5,4.5,4.5c2.5,0,4.5-2,4.5-4.5V32c0-0.6,0.4-1,1-1h9V2H33      v8h2.5c3.6,0,6.5,2.9,6.5,6.5c0,3.6-2.9,6.5-6.5,6.5H33V31z"
    id="path1685"
-   style="fill:#4c6dac;fill-opacity:1" />
+   style="fill:#80cc28;fill-opacity:1" />
 				<g
    id="g1693"
-   style="fill:#4c6dac;fill-opacity:1">
+   style="fill:#80cc28;fill-opacity:1">
 					<rect
    x="40"
    y="50"
@@ -109,7 +109,7 @@
    width="3"
    height="2"
    id="rect1687"
-   style="fill:#4c6dac;fill-opacity:1" />
+   style="fill:#80cc28;fill-opacity:1" />
 					<rect
    x="46"
    y="50"
@@ -117,7 +117,7 @@
    width="3"
    height="2"
    id="rect1689"
-   style="fill:#4c6dac;fill-opacity:1" />
+   style="fill:#80cc28;fill-opacity:1" />
 					<rect
    x="52"
    y="50"
@@ -125,73 +125,73 @@
    width="3"
    height="2"
    id="rect1691"
-   style="fill:#4c6dac;fill-opacity:1" />
+   style="fill:#80cc28;fill-opacity:1" />
 				</g>
 			</g>
 			<g
    id="Paper_sheet"
-   style="fill:#4c6dac;fill-opacity:1">
+   style="fill:#80cc28;fill-opacity:1">
 			</g>
 			<g
    id="IPO_graph"
-   style="fill:#4c6dac;fill-opacity:1">
+   style="fill:#80cc28;fill-opacity:1">
 			</g>
 			<g
    id="Codding_window"
-   style="fill:#4c6dac;fill-opacity:1">
+   style="fill:#80cc28;fill-opacity:1">
 			</g>
 			<g
    id="Wrench_with_pen"
-   style="fill:#4c6dac;fill-opacity:1">
+   style="fill:#80cc28;fill-opacity:1">
 			</g>
 			<g
    id="Magnifier"
-   style="fill:#4c6dac;fill-opacity:1">
+   style="fill:#80cc28;fill-opacity:1">
 			</g>
 			<g
    id="Hand_with_coin"
-   style="fill:#4c6dac;fill-opacity:1">
+   style="fill:#80cc28;fill-opacity:1">
 			</g>
 			<g
    id="Strategy_folder"
-   style="fill:#4c6dac;fill-opacity:1">
+   style="fill:#80cc28;fill-opacity:1">
 			</g>
 			<g
    id="Handshake"
-   style="fill:#4c6dac;fill-opacity:1">
+   style="fill:#80cc28;fill-opacity:1">
 			</g>
 			<g
    id="Arrows"
-   style="fill:#4c6dac;fill-opacity:1">
+   style="fill:#80cc28;fill-opacity:1">
 			</g>
 			<g
    id="Step_by_step"
-   style="fill:#4c6dac;fill-opacity:1">
+   style="fill:#80cc28;fill-opacity:1">
 			</g>
 			<g
    id="Workflow"
-   style="fill:#4c6dac;fill-opacity:1">
+   style="fill:#80cc28;fill-opacity:1">
 			</g>
 			<g
    id="Clock"
-   style="fill:#4c6dac;fill-opacity:1">
+   style="fill:#80cc28;fill-opacity:1">
 			</g>
 			<g
    id="Man_on_ladder"
-   style="fill:#4c6dac;fill-opacity:1">
+   style="fill:#80cc28;fill-opacity:1">
 			</g>
 			<g
    id="Baloon"
-   style="fill:#4c6dac;fill-opacity:1">
+   style="fill:#80cc28;fill-opacity:1">
 			</g>
 		</g>
 		<g
    id="Emblem"
-   style="fill:#4c6dac;fill-opacity:1">
+   style="fill:#80cc28;fill-opacity:1">
 		</g>
 		<g
    id="Layer_20"
-   style="fill:#4c6dac;fill-opacity:1">
+   style="fill:#80cc28;fill-opacity:1">
 		</g>
 	</g>
 </switch>
