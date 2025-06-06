@@ -93,7 +93,8 @@ th.orderable.desc:after {
 }
 
 nav {
-  border-bottom: 1px solid var(--bs-primary);
+  border-bottom: 1px solid rgba(128, 204, 40, 0.3);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.01);
 }
 
 
