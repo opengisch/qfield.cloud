@@ -1,10 +1,10 @@
 :root {
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
-  --bs-gray-light: #f5f5f5;
-  --bs-primary: #4a6fae;
+  --bs-gray-light: #fff;
+  --bs-primary: #80cc28;
   --bs-secondary: #6c757d;
-  --bs-success: #80cc28;
+  --bs-success: #4a6fae;
   --bs-info: #0dcaf0;
   --bs-warning: #9e6a03;
   --bs-danger: #dc3545;
@@ -65,7 +65,7 @@ th.orderable.desc:after {
 }
 
 .qfield-div {
-  color: white;
+  color: var(--bs-gray-light);
   fill: var(--bs-primary);
 }
 
@@ -77,138 +77,14 @@ th.orderable.desc:after {
   fill: red;
 }
 
-.qfc-profile-info {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: block;
-}
-
-.qfc-profile-info .fa {
-  width: 1.2rem;
-}
-
-.qfc-profile-avatar {
-  width: 100%;
-  padding-top: 100%;
-  border-radius: 50%;
-  overflow: hidden;
-  display: inline-block;
-  border: 0.2rem solid #eee;
-  position: relative;
-}
-
-.qfc-profile-avatar img {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-}
-
-.qfc-profile-avatar.qfc-inline {
-  width: 2em;
-  height: 2em;
-  vertical-align: middle;
-  margin: 0.5em;
-  border-width: 1px;
-  padding-top: 0;
-}
-
-.qfc-members-list,
-.qfc-teams-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: block;
-}
-
-.qfc-togglebox:not(.qfc-active) .qfc-active-visible {
-  display: none;
-}
-
-.qfc-togglebox.qfc-active .qfc-active-visible {
-  display: block;
-}
-
-.qfc-togglebox:not(.qfc-active) .qfc-active-hidden {
-  display: block;
-}
-
-.qfc-togglebox.qfc-active .qfc-active-hidden {
-  display: none;
-}
-
 .qfc-header-logo {
-  height: 1.5rem;
+  height: 3rem;
   margin-left: 0 rem !important;
 }
 
-.grow-wrap {
-  /* easy way to plop the elements on top of each other and have them both sized based on the tallest one's height */
-  display: grid;
-}
 
-.grow-wrap::after {
-  /* Note the weird space! Needed to prevent jumpy behavior */
-  content: attr(data-replicated-value) " ";
-  /* This is how textarea text behaves */
-  white-space: pre-wrap;
-  /* Hidden from view, clicks, and screen readers */
-  visibility: hidden;
-}
-
-.grow-wrap > textarea {
-  /* You could leave this, but after a user resizes, then it ruins the auto sizing */
-  resize: none;
-  /* Firefox shows scrollbar on growth, you can hide like this. */
-  overflow: hidden;
-}
-
-.grow-wrap > textarea,
-.grow-wrap::after {
-  /* Identical styling required!! */
-  border: 1px solid black;
-  padding: 0.5rem;
-  font: inherit;
-  /* Place on top of each other */
-  grid-area: 1/1/2/2;
-}
-
-/*# sourceMappingURL=qfieldcloud.css.map */
-
-.toasts {
-  position: absolute;
-  top: 5rem;
-  right: 1rem;
-  z-index: 10000;
-}
-
-.toast-logo {
-  max-height: 2rem;
-  max-width: 2rem;
-}
-
-.qfc-delta-modal-values tr td:first-child {
-  font-weight: bold;
-  white-space: nowrap;
-  text-align: right;
-}
-
-.qfc-delta-modal-values tr td:last-child {
-  word-break: break-all;
-  overflow-wrap: break-word;
-}
-
-[aria-expanded="true"] .qfc-toggle-collapsed,
-[aria-expanded="false"] .qfc-toggle-expanded {
-  display: none;
-}
-
-.bg-primary a.nav-link {
-  color: white !important;
+.navbar a.nav-link {
+  color: var(--bs-primary) !important;
 }
 
 .nav-pills .show > .nav-link:not(.active) {
@@ -216,346 +92,40 @@ th.orderable.desc:after {
   background-color: inherit;
 }
 
-.qfc-btn-show-when-dirty,
-.btn.qfc-btn-show-when-dirty {
-  opacity: 0;
-  transition: opacity 0.2s;
+nav {
+  border-bottom: 1px solid var(--bs-primary);
 }
 
-.qfc-fade-in,
-.btn.qfc-fade-in {
-  opacity: 1;
-  transition: opacity 0.2s;
-}
 
-/* Nyuki help text */
-/* Inspired from https://www.html-code-generator.com/css/speech-bubble-generator */
-.qfc-nyuki-help {
-  border-radius: 0.5rem;
-}
-
-.qfc-nyuki-help .qfc-nyuki-img {
-  height: 4rem;
-  filter: drop-shadow(0.2rem 0.2rem 0.2rem #ccc);
-}
-
-.qfc-speech-bubble {
-  position: relative;
-  border: var(--bs-primary) solid 1px;
-}
-
-.qfc-speech-bubble:after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 0;
-  z-index: 1;
-  border-style: solid;
-  border-width: 0 0 15px 13px;
-  border-color: transparent transparent #ffffff transparent;
-  bottom: 2rem;
-  left: -13px;
-  margin-top: -7.5px;
-}
-.qfc-speech-bubble:before {
-  content: "";
-  position: absolute;
-  width: 0;
-  z-index: 0;
-  border-style: solid;
-  border-width: 0 0 16px 14px;
-  border-color: transparent transparent var(--bs-primary) transparent;
-  bottom: 1.95rem;
-  left: -15px;
-  margin-top: -7.5px;
-  display: block;
-}
-.qfc-speech-bubble *:last-child {
-  margin-bottom: 0;
-}
-/* /Nyuki help text */
-
-.required label::after {
-  content: " *";
-  color: red;
-}
-
-.qfc-code-text {
-  background: #666;
-  color: #eee;
-  font-family: monospace;
-}
-
-/* Files list CSS */
-
-.qfc-overflow-wrap-anywhere {
-  overflow-wrap: anywhere;
-}
-
-.qfc-table-container {
-  display: block;
-}
-
-.qfc-flex-table {
-  display: flex;
-  flex-flow: row wrap;
-  transition: 0.5s;
-}
-.qfc-flex-table-header {
-  border-top: solid 1px #d9d9d9;
-  border-bottom: solid 2px #d9d9d9;
-}
-.qfc-flex-table-header .qfc-flex-row {
-  border-bottom: none;
-}
-
-.qfc-flex-table:hover {
-  background: var(--bs-gray-light);
-  transition: 500ms;
-}
-
-.qfc-flex-row {
-  width: calc(100% / 5);
+a.btn-success {
+  margin-left: 10px;
+  padding: 5px 10px 5px 10px !important;
+  background-color: var(--bs-primary);
+  border: 0.5px solid var(--bs-primary) !important;
+  color: var(--bs-gray-light) !important;
   text-align: center;
-  padding: 0.5em 0.5em;
-  border-bottom: solid 1px #d9d9d9;
+  border-radius: 32px;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.qfc-flex-table-row:last-child .qfc-flex-row {
-  border-bottom: none;
+a.btn-success:hover {
+  background-color: var(--bs-gray-light);
+  border: 0.5px solid var(--bs-primary) !important;
+  color: var(--bs-primary) !important;
+  border-radius: 32px;
+  text-decoration: none !important;
 }
 
-.qfc-flex-table-header.first,
-.qfc-flex-row.first {
-  width: calc(100% / 5 * 2);
+a.btn-primary{
+  background: none;
+  border: none;
+  color: var(--bs-primary);
 }
 
-@media all and (max-width: 767px) {
-  .qfc-flex-table-row:nth-child(even) {
-    background-color: #f9f9f9;
-  }
-
-  .qfc-flex-row {
-    width: calc(100% / 3);
-    border-bottom-width: 0;
-  }
-  .qfc-flex-row.first {
-    width: 100%;
-  }
-}
-/* /Files list CSS */
-
-/* Job log output */
-.qfc-job-output-log-step {
-  width: 0;
-  height: 0;
-  position: absolute;
-  top: -1000;
-  left: -1000;
-}
-
-.qfc-job-output-log-step:not([disabled]):after {
-  display: block;
-  content: "❯";
-}
-.qfc-job-output-log-step:checked:after {
-  transform: rotate(90deg);
-}
-
-.qfc-job-output-log-step + .qfc-job-output-status + .qfc-job-output-log-group {
-  height: 0;
-  overflow-y: hidden;
-}
-
-.qfc-job-output-log-step:checked
-  + .qfc-job-output-status
-  + .qfc-job-output-log-group {
-  height: auto;
-}
-
-.qfc-job-output-log-group .qfc-job-output-log-group > * {
-  white-space: pre-wrap;
-}
-
-.qfc-job-output-status {
-  font-weight: bold;
-  margin: 0;
-  padding-left: 1rem;
-}
-
-.qfc-job-output-status-0:after {
-  display: inline-block;
-  color: var(--bs-success);
-  content: "○";
-}
-
-.qfc-job-output-status-1:after {
-  display: inline-block;
-  color: #ff0000;
-  content: "✖";
-}
-
-.qfc-job-output-status-2:after {
-  display: inline-block;
-  color: var(--bs-success);
-  content: "✓";
-}
-
-.qfc-job-output-log {
-  min-height: 50rem;
-  min-height: 75vh;
-}
-/* /Job log output */
-
-.qfc-emphasize {
-  text-decoration: underline;
-  font-weight: bold;
-}
-
-/* Project status dot */
-.qfc-project-status-ok,
-.qfc-project-status-busy,
-.qfc-project-status-failed {
-  display: inline-block;
-  width: 0.75rem;
-  height: 0.75rem;
-  border: 1px solid var(--bs-gray, "gray");
-  border-radius: 50%;
-}
-
-.qfc-project-status-ok {
-  background-color: var(--bs-success, "green");
-}
-
-.qfc-project-status-busy {
-  background-color: var(--bs-warning, "orange");
-}
-
-.qfc-project-status-failed {
-  background-color: var(--bs-danger, "red");
-}
-/* /Project status dot */
-
-/* Project changes reviewer */
-.qfc-reviewer-map {
-  width: 100%;
-  height: 50vh;
-}
-
-.qfc-reviewer .qfc-label {
-  font-size: 0.75rem;
-}
-
-.qfc-reviewer .qfc-value {
-  display: block;
-  font-weight: bold;
-  text-overflow: ellipsis;
-  overflow-x: hidden;
-}
-
-.qfc-value-copy {
-  cursor: pointer;
-}
-
-.qfc-diff-deleted,
-.qfc-diff-added {
-  padding: 0.2rem;
-  border-radius: 0.5em;
-}
-
-.qfc-diff-added {
-  background-color: #e6ffec;
-}
-
-.qfc-diff-deleted {
-  background-color: #ffebe9;
-}
-
-.qfc-reviewer-attribute-table {
-  min-width: 50%;
-}
-
-.qfc-reviewer-attribute-table tbody tr :nth-child(n + 2) {
-  width: 40%;
-}
-
-.qfc-attribute-type-number,
-.qfc-attribute-type-boolean,
-.qfc-attribute-type-null,
-.qfc-attribute-type-string {
-  font-family: monospace;
-}
-
-.qfc-attribute-type-number :nth-child(n + 2) {
-  color: blue;
-}
-
-.qfc-attribute-type-boolean :nth-child(n + 2) {
-  color: blue;
-}
-
-.qfc-attribute-type-null :nth-child(n + 2),
-.qfc-attribute-value-null {
-  color: gray;
-}
-
-.qfc-reviewer-map-wrapper {
-  position: relative;
-  overflow: hidden;
-}
-
-option[value="apply"] {
-  color: green;
-}
-
-option[value="ignore"] {
-  color: orange;
-}
-
-.qfc-reviewer-map-overlay {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-  opacity: 0;
-  transition: all 0.5s;
-}
-
-.qfc-reviewer-map-overlay h1 {
-  color: #fff;
-  text-shadow: 0px 0px 3px #000;
-}
-
-.qfc-reviewer-map-overlay.active {
-  opacity: 1;
-  background: rgba(255, 255, 255, 0.5);
-}
-/* /Project changes reviewer */
-
-.qfc-ribbon {
-  height: 2rem;
-  background: var(--bs-primary, "royalblue");
-  width: 250px;
-  text-align: center;
-  font-size: 1rem;
-  line-height: 2rem;
-  padding-right: 50px;
-  font-family: sans-serif;
-  color: var(--bs-gray-light, "white");
-  transform: rotate(-45deg);
-  position: fixed;
-  top: -2px;
-  left: -70px;
-  z-index: 1000;
-  text-align: center;
-  box-shadow: inset 0px 0px 0px 4px rgba(255, 255, 255, 0.34);
-}
-
-.qfc-ribbon:hover {
-  color: var(--bs-gray-light, "white");
+a.btn-primary:hover {
+  background-color: var(--bs-gray-light);
+  border: 0.5px solid var(--bs-primary) !important;
+  color: var(--bs-primary) !important;
+  border-radius: 32px;
+  text-decoration: none !important;
 }
