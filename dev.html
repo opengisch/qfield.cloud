@@ -679,7 +679,7 @@
         (s.defer = !0),
         (s.nonce = "fLtH7UnWnR6BQ+BrvTDU0g=="),
         (s.src =
-          "https://desk.zoho.eu/portal/api/web/asapApp/116946000012197101?orgId=20083485809"),
+          "https://desk.zoho.eu/portal/api/web/asapApp/116946000012197141?orgId=20083485809"),
         (t = d.getElementsByTagName("script")[0]),
         t.parentNode.insertBefore(s, t),
         (window.ZohoDeskAsapReady = function (callback) {
@@ -696,11 +696,20 @@
 
       ZohoDeskAsapReady(function () {
         ZohoDeskAsap.set("app.tabs.reorderTabs", [
+          "Home",
           "Knowledge Base",
           "Answer Bot",
           "Tickets",
         ]);
-        //    "Answer Bot",      "Home",      "Community",      "Ticket",      "Knowledge Base",      "Guided Conversations",      "SalesIQ Chat",      "Business Messaging",      "Submit Ticket",      "Add Topic"
+        const interval = setInterval(() => {
+          const el = document.querySelector(
+            ".zd-asap-modulesearchwidget-choose__module"
+          );
+          if (el) {
+            el.textContent = "What are you looking for?";
+            clearInterval(interval);
+          }
+        }, 100);
       });
     </script>
   </body>
