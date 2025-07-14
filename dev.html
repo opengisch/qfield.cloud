@@ -13,29 +13,17 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="css/base.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="css/custom.css"
-    />
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />
 
-    <link
-      rel="shortcut icon"
-      type="image/png"
-      href="img/favicon.ico"
-    />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.ico" />
 
     <title>QFieldCloud - Seamless fieldwork</title>
   </head>
 
   <body class="d-flex flex-column h-100">
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand navbar-light nav-fill w-100 bg-primary" >
+    <nav class="navbar navbar-expand navbar-light nav-fill w-100 bg-primary">
       <a href="/">
         <img
           src="img/logo_sidetext.white.svg"
@@ -46,15 +34,22 @@
       <ul class="navbar-nav ml-auto">
         <li class="nav-item ml-2 d-none d-lg-block">
           <a class="nav-link" href="#features"> Features</a>
-        </li>       
+        </li>
         <li class="nav-item ml-2 d-none d-lg-block">
-          <a class="nav-link" href="https://docs.qfield.org/get-started/tutorials/get-started-qfc/" target="_blank">Documentation</a>
+          <a
+            class="nav-link"
+            href="https://docs.qfield.org/get-started/tutorials/get-started-qfc/"
+            target="_blank"
+            >Documentation</a
+          >
         </li>
         <li class="nav-item ml-2 d-none d-lg-block">
           <a class="nav-link" href="/pricing.html">Pricing</a>
         </li>
         <li class="nav-item ml-2">
-          <a class="btn btn-primary" href="https://app.qfield.cloud/accounts/signup/"
+          <a
+            class="btn btn-primary"
+            href="https://app.qfield.cloud/accounts/signup/"
             >Register</a
           >
         </li>
@@ -82,7 +77,11 @@
           collection campaigns, QFieldCloud removes the pain from synchronizing
           and merging data.
         </p>
-        <a class="btn btn-success btn-lg mb-0" href="https://app.qfield.cloud/" role="button" id="cta"
+        <a
+          class="btn btn-success btn-lg mb-0"
+          href="https://app.qfield.cloud/"
+          role="button"
+          id="cta"
           >Sign In</a
         >
       </div>
@@ -175,8 +174,7 @@
           <div class="card mb-4 box-shadow border-0">
             <div class="card-body d-flex flex-column justify-content-between">
               <h2 class="card-title pricing-card-title">
-                Made with love –
-                open source
+                Made with love – open source
               </h2>
 
               <p>
@@ -616,7 +614,8 @@
           <div class="collapse navbar-collapse" id="navbarText">
             <span class="text-muted navbar-text"
               >Made with 💝 by
-              <a href="https://opengis.ch" target="blank">OPENGIS.ch</a>. © 2025</span
+              <a href="https://opengis.ch" target="blank">OPENGIS.ch</a>. ©
+              2025</span
             >
           </div>
           <ul class="navbar-nav mr-auto">
@@ -652,8 +651,7 @@
                 class="nav-link"
                 href="https://status.qfield.org/"
                 target="_blank"
-                >Status
-                <i class="fa fa-external-link" aria-hidden="true"></i
+                >Status <i class="fa fa-external-link" aria-hidden="true"></i
               ></a>
             </li>
           </ul>
@@ -672,8 +670,38 @@
       crossorigin="anonymous"
     ></script>
     <script src="./js/main.js"></script>
-    <script async src="https://js.usechat.ai/widget/ccc2354c-6ef2-41fe-a1db-a05cd468c2bc.js"></script><a id="usechat-button" style="color: #ddd; font-size: 11px;" href="https://app.usechat.ai/widget/ccc2354c-6ef2-41fe-a1db-a05cd468c2bc">UseChat</a>
 
-    <script type="text/javascript" noonce="fLtH7UnWnR6BQ+BrvTDU0g==" src="https://desk.zoho.eu/portal/api/web/inapp/116946000000448553?orgId=20083485809" defer></script>
+    <script type="text/javascript" id="zohodeskasap">
+      var d = document;
+      (s = d.createElement("script")),
+        (s.type = "text/javascript"),
+        (s.id = "zohodeskasapscript"),
+        (s.defer = !0),
+        (s.nonce = "fLtH7UnWnR6BQ+BrvTDU0g=="),
+        (s.src =
+          "https://desk.zoho.eu/portal/api/web/asapApp/116946000012197101?orgId=20083485809"),
+        (t = d.getElementsByTagName("script")[0]),
+        t.parentNode.insertBefore(s, t),
+        (window.ZohoDeskAsapReady = function (callback) {
+          var queue = (window.ZohoDeskAsap__asyncalls =
+            window.ZohoDeskAsap__asyncalls || []);
+          if (window.ZohoDeskAsapReadyStatus) {
+            callback && queue.push(callback);
+            queue.forEach((cb) => cb && cb());
+            window.ZohoDeskAsap__asyncalls = null;
+          } else {
+            callback && queue.push(callback);
+          }
+        });
+
+      ZohoDeskAsapReady(function () {
+        ZohoDeskAsap.set("app.tabs.reorderTabs", [
+          "Knowledge Base",
+          "Answer Bot",
+          "Tickets",
+        ]);
+        //    "Answer Bot",      "Home",      "Community",      "Ticket",      "Knowledge Base",      "Guided Conversations",      "SalesIQ Chat",      "Business Messaging",      "Submit Ticket",      "Add Topic"
+      });
+    </script>
   </body>
 </html>
