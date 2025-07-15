@@ -695,21 +695,43 @@
         });
 
       ZohoDeskAsapReady(function () {
-        ZohoDeskAsap.set("app.tabs.reorderTabs", [
+        // Inject custom Community widget
+        ZohoDeskAsap.set("home.customWidgets", [
+          {
+            name: "Community",
+            type: "CUSTOM_WIDGETS",
+            showName: false,
+            order: 0,
+            content: `
+    <div class="zd-asap-newrow-common  zd-asap-layoutstyle-column zd-asap-layoutstyle-auto  custom_row_container  zd-asap-modulelandingwidget-container zd_asap_hover_target" data-id="row_container" tabindex="0" role="link" style="cursor:pointer" onclick="window.open('https://community.qfield.org/', '_blank')">
+      <div class="zd-asap-newrow-commonCol  zd-asap-layoutstyle-leftcenter  custom_col_container  zd-asap-modulelandingwidget-title__logo zd-asap-layoutstyle-flex" data-id="col_container">
+        <div class="zd-asap-newbox-common custom_box_container zd-asap-modulelandingwidget-logo zd-asap-modulelandingwidgetaccessibillity-accessibility_image" data-id="box_container">
+          <span role="img" alt="category logo" class="zd-asap-newicon-common zd-asap-iconcolor-iconcolors" data-id="icon_kb2">
+            <svg class="zd-asap-modulelandingwidget-svg__logo custom_icon_kb2 zd-asap-newicon-size36">
+              <use xlink:href="#kb2"></use>
+            </svg>
+          </span>
+        </div>
+        <h4 class="zd-asap-newtext-common custom_text zd-asap-newtext-wrap zd-asap-modulelandingwidget-title__text zd-asap-modulelandingwidgetaccessibillity-title__text zd_asap_primary_text zd_asap_heading4 zd_asap_hover_text zd_asap_widget_title" data-id="community_widget_title" id="community__widget__landing__title">
+          Community
+        </h4>
+      </div>
+      <div class="zd-asap-newrow-commonCol zd-asap-layoutstyle-column zd-asap-layoutstyle-auto custom_col_container zd-asap-modulelandingwidget-desc__posts zd-asap-modulelandingwidgetaccessibillity-desc__posts zd-asap-layoutstyle-flex" data-id="col_container">
+        <div class="zd-asap-newtext-common custom_text zd-asap-newtext-fz14 zd-asap-newtext-wrap zd-asap-modulelandingwidget-description zd-asap-modulelandingwidgetaccessibillity-description zd_asap_secondary_text" data-id="community_widget_desc" id="community__widget__landing__desc">
+          Join discussions, ask questions, and connect with other users.
+        </div>
+      </div>
+    </div>
+    `,
+          },
+        ]);
+    ZohoDeskAsap.set("app.tabs.reorderTabs", [
           "Home",
           "Knowledge Base",
+          "Community",
           "Answer Bot",
           "Tickets",
         ]);
-        const interval = setInterval(() => {
-          const el = document.querySelector(
-            ".zd-asap-modulesearchwidget-choose__module"
-          );
-          if (el) {
-            el.textContent = "What are you looking for?";
-            clearInterval(interval);
-          }
-        }, 100);
       });
     </script>
   </body>
