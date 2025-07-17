@@ -581,6 +581,7 @@ div.explanation {
     max-width: auto;
     object-fit: contain;
     transition: transform 0.3s ease;
+    margin: 0px 20px 50px 20px;
 }
 
 /* individual logo sizes */
