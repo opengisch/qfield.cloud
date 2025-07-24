@@ -274,8 +274,8 @@ font-size: 13pt;
 }
 
 #customers .customer-logos img {
-  width: 5em;
-  height: 5em;
+  width: 83px;
+  height: 83px;
   object-fit: contain;
   padding: 1.5em;
   transition: all 0.2s linear, padding 0.5s ease-in-out;
@@ -292,10 +292,11 @@ font-size: 13pt;
 
 #customers .customer-logos img.customer-active {
   filter: grayscale(0%);
-  padding: 1.25em;
+  padding: 20px;
   /* animation of padding change */
-  transition: all 0.5s ease;
+  /* transition: all 0.5s ease; */
   background-color: #fff;
+  margin: 2px;
 }
 
 #customers .customer-card {
@@ -377,6 +378,22 @@ font-size: 13pt;
   color: var(--main-color) !important;
   border-radius: 32px;
   text-decoration: none !important;
+}
+
+/* success stories index */
+.ss-btn {
+  font-family: "bio-sans";
+  font-size: 12pt;
+  font-weight: 400;
+  color: #212121;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.ss-btn:hover {
+  color: var(--main-color);
+  text-decoration: none;
 }
 
 /* about */
@@ -501,7 +518,7 @@ div.explanation {
   #maincarousel {
     height:500px;
   }
-  
+
   .phone-image {
     max-width: 58%;
     right: 2%;
