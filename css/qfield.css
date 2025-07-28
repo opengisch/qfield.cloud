@@ -252,16 +252,17 @@ font-size: 13pt;
 }
 
 #customers {
-  background-color: #f2f2f2;
-  background-image: url('../images/bg/footer.jpg');
+  background-color: #fafafa;
+  background-image: url('../images/bg/qfc-footer-1.png');
   background-size: cover !important;
   padding: 3em 0;
 }
 
 #about {
-  background-color: #f2f2f2;
-  background-image: url('../images/bg/footer.jpg');
+  background-color: #fafafa;
+  background-image: url('../images/bg/qfc-footer-1.png');
   background-size: cover !important;
+  background-blend-mode: lighten;
 }
 
 #customers>h2 {
