@@ -252,16 +252,17 @@ font-size: 13pt;
 }
 
 #customers {
-  background-color: #f2f2f2;
-  background-image: url('../images/bg/footer.jpg');
+  background-color: #fafafa;
+  background-image: url('../images/bg/qfc-footer-1.png');
   background-size: cover !important;
   padding: 3em 0;
 }
 
 #about {
-  background-color: #f2f2f2;
-  background-image: url('../images/bg/footer.jpg');
+  background-color: #fafafa;
+  background-image: url('../images/bg/qfc-footer-1.png');
   background-size: cover !important;
+  background-blend-mode: lighten;
 }
 
 #customers>h2 {
@@ -274,8 +275,8 @@ font-size: 13pt;
 }
 
 #customers .customer-logos img {
-  width: 5em;
-  height: 5em;
+  width: 83px;
+  height: 83px;
   object-fit: contain;
   padding: 1.5em;
   transition: all 0.2s linear, padding 0.5s ease-in-out;
@@ -292,10 +293,10 @@ font-size: 13pt;
 
 #customers .customer-logos img.customer-active {
   filter: grayscale(0%);
-  padding: 1.25em;
+  padding: 20px;
   /* animation of padding change */
-  transition: all 0.5s ease;
   background-color: #fff;
+  margin: 2px;
 }
 
 #customers .customer-card {
@@ -379,6 +380,22 @@ font-size: 13pt;
   text-decoration: none !important;
 }
 
+/* success stories index */
+.ss-btn {
+  font-family: "bio-sans";
+  font-size: 12pt;
+  font-weight: 400;
+  color: #212121;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.ss-btn:hover {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
 /* about */
 #about {
   background-color: #21212105;
@@ -414,7 +431,7 @@ div.feature h2, div.feature p {
 }
 
 div.feature img {
-  width:150px;
+  width:100px;
 }
 
 div.explanation {
@@ -501,7 +518,7 @@ div.explanation {
   #maincarousel {
     height:500px;
   }
-  
+
   .phone-image {
     max-width: 58%;
     right: 2%;
