@@ -974,3 +974,18 @@ div.explanation {
 .md-typeset a, .md-typeset a:before {
     transition: color 125ms;
 } */
+
+.price {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  position: relative;
+}
+
+.price.hide {
+  opacity: 0;
+  transform: translateY(10px);
+  pointer-events: none;
+  position: absolute;
+}
+
