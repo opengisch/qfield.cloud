@@ -17,7 +17,7 @@
   }
   .switch-wrapper [type="radio"]:checked#monthly ~ label[for="monthly"],
   .switch-wrapper [type="radio"]:checked#yearly ~ label[for="yearly"] {
-    color: var(--white);
+    color: white;
   }
   .switch-wrapper [type="radio"]:checked#monthly ~ label[for="monthly"]:hover,
   .switch-wrapper [type="radio"]:checked#yearly ~ label[for="yearly"]:hover {
@@ -37,6 +37,7 @@
   }
   .switch-wrapper label {
     font-size: 16px;
+    font-weight: 500;
     z-index: 1;
     min-width: 100px;
     line-height: 32px;
@@ -55,9 +56,19 @@
     width: calc(50% - 4px);
     height: calc(100% - 8px);
     border-radius: 30px;
-    background: var(--primary);
+    background: var(--main-color);
     transition: transform 0.25s ease-in-out;
   }
   div .hide {
     display: none;
   }
+
+  /* pricing page button */
+.panel-primary {
+  border-color: var(--main-color);
+  height: 100%;
+}
+.panel-primary .panel-heading {
+  background-color: var(--main-color);
+}
+

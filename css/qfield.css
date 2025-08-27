@@ -979,6 +979,8 @@ div.explanation {
 
 
 /* pricing */
+
+/*
 .price {
   opacity: 1;
   transform: translateY(0);
@@ -986,13 +988,7 @@ div.explanation {
   position: relative;
 }
 
-.price.hide {
-  opacity: 0;
-  transform: translateY(10px);
-  pointer-events: none;
-  position: absolute;
-}
-/*
+
 .card-deck {
   display: flex;
   flex-wrap: wrap;
