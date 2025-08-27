@@ -72,3 +72,10 @@
   background-color: var(--main-color);
 }
 
+#flex-plan.blur .panel-body {
+  filter: blur(3px);
+}
+
+.list-unstyled{
+  text-align: left;
+}
