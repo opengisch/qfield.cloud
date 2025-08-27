@@ -9,6 +9,8 @@ $(function () {
   const switchInputs = document.querySelectorAll(".switch-wrapper input");
   const prices = tableWrapper.querySelectorAll("#pricing .price");
   const toggleClass = "hide";
+  const flexplan = tableWrapper.querySelector("#flex-plan");
+  const flexplanlink = flexplan.querySelector("#flex-plan-link");
 
   for (const switchInput of switchInputs) {
     switchInput.addEventListener("input", function () {
@@ -21,6 +23,8 @@ $(function () {
       for (const activePrice of activePrices) {
         activePrice.classList.remove(toggleClass);
       }
+      $(flexplan).toggleClass('blur');
+      $(flexplanlink).toggleClass('disabled');
     });
   }
 });
