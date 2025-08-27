@@ -79,3 +79,31 @@
 .list-unstyled{
   text-align: left;
 }
+
+
+/* Make all pricing panels the same height */
+#pricing {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#pricing .col-md-3 {
+  display: flex;
+}
+#pricing .panel {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+#pricing .panel-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+#pricing .panel-body ul {
+  flex-grow: 1;
+} 
+
