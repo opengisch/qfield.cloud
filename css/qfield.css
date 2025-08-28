@@ -978,58 +978,25 @@ div.explanation {
 } */
 
 
-/* pricing */
-
-/*
-.price {
-  opacity: 1;
-  transform: translateY(0);
-  transition: opacity 0.4s ease, transform 0.4s ease;
-  position: relative;
+/* pricing page */
+.pricing-card {
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-
-.card-deck {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  border-radius: 30px !important;
-} */
-
-
-
-/*
-.card {
-  border-radius: 12px;
-  border: 1px solid #ddd;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+.pricing-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
 }
 
-.card-header {
-  background-color: #007bff;
-  color: white;
-  font-weight: bold;
-  font-size: 1.25rem;
-  text-transform: uppercase;
-  border-bottom: 2px solid #0056b3;
+.panel-heading {
+  background-color: white !important;
+  color: black !important;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom: 0;
+  padding-top: 40px;
 }
 
-.pricing-card-title {
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: #333;
-}
-
-.card-body .btn {
-  border-radius: 50px;
-  font-weight: bold;
-  padding: 0.75rem 1.5rem;
-  transition: all 0.3s ease;
-}
-
-.card-body .btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
-*/
