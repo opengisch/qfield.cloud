@@ -1023,7 +1023,6 @@ div.explanation {
   border-top-right-radius: 20px;
   border-bottom: rgba(33, 33, 33, 0.5) solid 0.5px !important;
   padding-top: 20px;
-  border
 }
 
 /* optimizations for compactness */
@@ -1110,4 +1109,27 @@ div.explanation {
   text-decoration: none;
   padding: 6px 15px;
   margin-top: 40px;
+}
+
+/* comparison table */
+.comparison-table-wrapper {
+  overflow: hidden;
+}
+
+.comparison-table-wrapper .table {
+  margin-bottom: 0;
+  border: none;
+}
+
+.comparison-table-wrapper .table th,
+.comparison-table-wrapper .table td {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: rgba(33, 33, 33, 0.05) solid 0.5px !important;
+  background-color: white !important;
+}
+
+.comparison-table-wrapper .table th {
+  font-weight: 600;
 }
