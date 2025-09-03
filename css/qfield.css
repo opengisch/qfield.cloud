@@ -1142,17 +1142,58 @@ div.explanation {
 }
 
 /* special pricing cards */
-.special-pricing {
-  margin-top: 100px;
-  margin-bottom: 40px;
-}
-
 .special-pricing-card {
-  height: 380px; /* Slightly shorter for more square look */
+  height: 380px;;
   width: auto;
   border-radius: 20px;
   border: none;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  overflow: hidden; /* Ensures content doesn't overflow rounded corners */
+  overflow: hidden;
+}
+
+.special-pricing-card .panel-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: calc(100% - 60px);
+  padding: 15px 20px;
+}
+
+.special-pricing-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.special-pricing {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.special-pricing-card .panel-heading h4 {
+  margin: 5px 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.special-pricing-card h2 {
+  margin: 10px 0;
+  font-size: 28px;
+}
+
+.special-pricing-card .list-unstyled {
+  margin-bottom: 1px;
+  margin-top: 15px;
+  flex-grow: 1;
+}
+
+.special-pricing-card .list-unstyled li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.special-pricing-card h2 {
+    margin: 10px 0px;
+    font-size: 28px;
 }
