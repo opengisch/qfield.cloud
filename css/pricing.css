@@ -256,7 +256,16 @@
   border-left: none;
   border-right: none;
   border-bottom: rgba(33, 33, 33, 0.05) solid 0.5px !important;
-  background-color: white !important;
+}
+.comparison-table-wrapper .table th{
+  background-color: var(--main-color);
+  color: white;
+}
+.table-striped > tbody > tr > td:first-child {
+  font-weight: bolder;
+}
+.table-striped > tbody > tr:nth-of-type(even) {
+  background-color: rgba(74, 111, 174, 0.3);
 }
 
 .comparison-table-wrapper .table th {
