@@ -27,5 +27,8 @@ $(function () {
       $(flexplanlink).toggleClass('disabled');
     });
   }
-});
 
+  $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();
+  });
+});

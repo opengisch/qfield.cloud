@@ -1141,6 +1141,14 @@ div.explanation {
   font-weight: normal;
 }
 
+/* information icon for comparison table */
+.text-info {
+  cursor: auto;
+  margin-left: 2px;
+  width: 1px;
+  color: var(--main-color);
+}
+
 /* special pricing cards */
 .special-pricing-card {
   height: 380px;;
