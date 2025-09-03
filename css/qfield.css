@@ -1133,3 +1133,26 @@ div.explanation {
 .comparison-table-wrapper .table th {
   font-weight: 600;
 }
+
+.popular-btn {
+  color: rgba(33, 33, 33, 0.4);
+  font-size: 10pt;
+  font-family:"bio-sans";
+  font-weight: normal;
+}
+
+/* special pricing cards */
+.special-pricing {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.special-pricing-card {
+  height: 380px; /* Slightly shorter for more square look */
+  width: auto;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden; /* Ensures content doesn't overflow rounded corners */
+}
