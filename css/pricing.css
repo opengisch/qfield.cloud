@@ -105,7 +105,7 @@
 
 #pricing .panel-body ul {
   flex-grow: 1;
-} 
+}
 
 /* pricing page */
 
@@ -137,12 +137,12 @@
   flex-direction: column;
   justify-content: space-between;
   height: calc(100% - 60px);
-  padding: 15px 20px; /* Add some control over padding */
+  padding: 15px 20px;
 }
 
 .pricing-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Slightly stronger shadow */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 .panel-heading {
@@ -163,12 +163,13 @@
 
 .pricing-card h2 {
   margin: 10px 0;
-  font-size: 28px;
+  font-size: 21pt;
 }
 
 .pricing-card .list-unstyled {
   margin: 15px 0 !important;
   flex-grow: 1;
+
 }
 
 .pricing-card .list-unstyled li {
@@ -224,6 +225,18 @@
   border-bottom-right-radius: 20px;
 }
 
+.popular-btn {
+  background-color: var(--main-color);
+  color: var(--main-color);
+  border-radius: 12px;
+  border: 1px solid #4a6fae;
+  font-size: 8pt !important;
+  font-weight: normal;
+  position: absolute;
+  top: 7px;
+  right: 21px;
+}
+
 .collapse-btn {
   display: inline-block;
   background-color: #ffffff;
@@ -243,6 +256,8 @@
 /* comparison table */
 .comparison-table-wrapper {
   overflow: hidden;
+  border-radius: 12px;
+  border: rgba(33, 33, 33, 0.1) solid 0.8px !important;
 }
 
 .comparison-table-wrapper .table {
@@ -255,28 +270,30 @@
   border-top: none;
   border-left: none;
   border-right: none;
+  border-bottom: rgba(33, 33, 33, 0.1) solid 0.5px !important;
+  background-color: white !important;
+  padding: 15px 20px;
+}
+
+.comparison-table-wrapper .table th{
+  color: var(--main-color);
+  border-radius: 12px;
   border-bottom: rgba(33, 33, 33, 0.05) solid 0.5px !important;
 }
-.comparison-table-wrapper .table th{
-  background-color: var(--main-color);
-  color: white;
-}
+
 .table-striped > tbody > tr > td:first-child {
   font-weight: bolder;
 }
 .table-striped > tbody > tr:nth-of-type(even) {
-  background-color: rgba(74, 111, 174, 0.3);
+  background-color: rgba(74, 111, 174, 0.05);
 }
 
 .comparison-table-wrapper .table th {
   font-weight: 600;
 }
 
-.popular-btn {
-  color: rgba(33, 33, 33, 0.4);
-  font-size: 10pt;
-  font-family:"bio-sans";
-  font-weight: normal;
+.text-left {
+  color: black !important;
 }
 
 /* information icon for comparison table */
@@ -293,7 +310,7 @@
   width: auto;
   border-radius: 20px;
   border: none;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   overflow: hidden;
 }
@@ -324,7 +341,7 @@
 
 .special-pricing-card h2 {
   margin: 10px 0;
-  font-size: 28px;
+  font-size: 21pt;å
 }
 
 .special-pricing-card .list-unstyled {
@@ -341,5 +358,5 @@
 
 .special-pricing-card h2 {
     margin: 10px 0px;
-    font-size: 28px;
-}
+    font-size: 28px;url(../../../../../var/folders/qx/6yt68vg56_z1wdrhgxq5bzhr0000gq/T/InDesign Snippets/Snippet_31ECF4C1E.idms);
+  }
