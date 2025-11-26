@@ -16,7 +16,8 @@ $(function () {
 
   function updateCosts() {
     const users_val = users.val();
-    const storage_val = storage.val();
+    // we need to divide the storage by 3 because the storage is sold per 3GB.
+    const storage_val = Math.ceil(storage.val() / 3);
 
     const total =
     SETUP_FEE + (Math.max(users_val, 2) * MONTHLY_USER +
