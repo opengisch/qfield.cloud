@@ -66,68 +66,107 @@
         </div>
       </div>-->
       <div id="pricing" class="card-deck mb-3 text-center">
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Community</h4>
-          </div>
-          <div class="card-body d-flex flex-column justify-content-between">
-            <h1 class="card-title pricing-card-title">Free</h1>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Unlimited public/private projects</li>
-              <li>Basic data hosting and versioning</li>
-              <li>File based projects only</li>
-            </ul>
-            <a href="https://app.qfield.cloud/accounts/signup/"
-              class="btn btn-lg btn-block btn-outline-primary">Register for free</a>
-          </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Pro</h4>
-          </div>
-          <div class="card-body d-flex flex-column justify-content-between">
-            <div class="price yearly hide">
-              <h1 class="card-title pricing-card-title">€12 <small class="text-muted">/ mo</small></h1>
-            </div>
-            <div class="price monthly ">
-              <h1 class="card-title pricing-card-title">€15 <small class="text-muted">/ mo</small></h1>
-            </div>
 
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Everything included in Community</li>
-              <li>Basic collaboration on private projects</li>
-              <li>Better data hosting and versioning</li>
-              <li>Offline PostGIS layers support</li>
-            </ul>
-            <a href="https://app.qfield.cloud/accounts/signup/" class="btn btn-lg btn-block btn-outline-primary">Get
-              Pro now</a>
-          </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Organization</h4>
-          </div>
-          <div class="card-body d-flex flex-column justify-content-between">
-            <div class="price yearly hide">
-              <h1 class="card-title pricing-card-title">€16 <small class="text-muted">/ user / mo</small></h1>
-            </div>
-            <div class="price monthly">
-              <h1 class="card-title pricing-card-title">€20 <small class="text-muted">/ user / mo</small></h1>
-            </div>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li></li>
-              <li>Everything included in Pro</li>
-              <li>Unlimited collaboration</li>
-              <li>Team management</li>
-              <li>Minimum two users, pay only for additional active users</li>
-              <li>28 Days free trial</li>
-            </ul>
+  <!-- COMMUNITY -->
+  <div class="card mb-4 box-shadow">
+    <div class="card-header">
+      <h4 class="my-0 font-weight-normal">Community</h4>
+    </div>
+    <div class="card-body d-flex flex-column">
+      <h1 class="card-title pricing-card-title">Free</h1>
 
-            <a href="https://app.qfield.cloud/accounts/signup/" class="btn btn-lg btn-block btn-outline-primary">Start free trial now</a>
-          </div>
-        </div>
+      <ul class="list-unstyled mt-3 mb-4">
+        <li>Unlimited public/private projects</li>
+        <li>Basic data hosting and versioning</li>
+        <li>File based projects only</li>
+      </ul>
 
-        <button class="btn btn-primary btn-block mx-3 mt-3 mb-4" type="button" data-toggle="collapse"
+      <div class="pricing-cta mt-auto">
+        <a href="https://app.qfield.cloud/accounts/signup/"
+          class="btn btn-lg btn-block btn-outline-primary">
+          Register for free
+        </a><p class="pricing-note mb-0 invisible">placeholder</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRO -->
+  <div class="card mb-4 box-shadow">
+    <div class="card-header">
+      <h4 class="my-0 font-weight-normal">Pro</h4>
+    </div>
+    <div class="card-body d-flex flex-column">
+
+      <div class="price yearly hide">
+        <h1 class="card-title pricing-card-title">
+          €12 <small class="text-muted">/ mo</small>
+        </h1>
+      </div>
+      <div class="price monthly">
+        <h1 class="card-title pricing-card-title">
+          €15 <small class="text-muted">/ mo</small>
+        </h1>
+      </div>
+
+      <ul class="list-unstyled mt-3 mb-4">
+        <li>Everything included in Community</li>
+        <li>Basic collaboration on private projects</li>
+        <li>Better data hosting and versioning</li>
+        <li>Offline PostGIS layers support</li>
+      </ul>
+
+      <div class="pricing-cta mt-auto">
+        <a href="https://app.qfield.cloud/accounts/signup/"
+          class="btn btn-lg btn-block btn-outline-primary">
+          Get Pro now
+        </a>
+        <p class="pricing-note mb-0 invisible">placeholder</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ORGANIZATION -->
+  <div class="card mb-4 box-shadow">
+    <div class="card-header">
+      <h4 class="my-0 font-weight-normal">Organization</h4>
+    </div>
+    <div class="card-body d-flex flex-column">
+
+      <div class="price yearly hide">
+        <h1 class="card-title pricing-card-title">
+          €16 <small class="text-muted">/ user / mo</small>
+        </h1>
+      </div>
+      <div class="price monthly">
+        <h1 class="card-title pricing-card-title">
+          €20 <small class="text-muted">/ user / mo</small>
+        </h1>
+      </div>
+
+      <ul class="list-unstyled mt-3 mb-4">
+        <li>Everything included in Pro</li>
+        <li>Unlimited collaboration</li>
+        <li>Team management</li>
+        <li>Minimum two users, pay only for additional active users</li>
+        <li>28 Days free trial</li>
+      </ul>
+
+      <div class="pricing-cta mt-auto">
+        <a href="https://app.qfield.cloud/accounts/signup/"
+          class="btn btn-lg btn-block btn-outline-primary">
+          Start free trial now
+        </a>
+        <p class="pricing-note mb-0">
+          More than 30 users?
+          <a href="https://support.qfield.cloud/portal/en/newticket?departmentId=116946000000442061&layoutId=116946000000710166" target="_blank">
+            Contact sales
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <button class="btn btn-primary btn-block mx-3 mt-3 mb-4" type="button" data-toggle="collapse"
           data-target="#qfc-plan-pricing-comparison-table" aria-expanded="false"
           aria-controls="qfc-plan-pricing-comparison-table">
           Show detailed comparison
@@ -228,7 +267,7 @@
           </tbody>
         </table>
 
-      </div>
+</div>
       
       <h1>Special pricing</h1>
       <p>At QFieldCloud, we firmly believe in the power of education and doing good, that is why we offer heavily
