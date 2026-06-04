@@ -76,10 +76,19 @@
   filter: blur(3px);
 }
 
-.list-unstyled{
+.list-unstyled {
   text-align: left;
+  list-style-position: outside;
+  margin: 0;
+  padding-left: 2em;
 }
 
+.list-unstyled li::marker {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: "\f00c\00a0";
+  color: var(--qfield-green);
+}
 
 /* Make all pricing panels the same height */
 #pricing {
