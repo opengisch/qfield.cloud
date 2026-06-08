@@ -99,8 +99,10 @@ span.shadow-background {
 
 .navbar-brand img {
   display:inline-block;
-  height: 70px;
-  width: 70px;
+  width: auto;
+  height: 52px;
+  margin-top: 8px;
+  max-width: calc(100vw - 100px);
 }
 
 footer.footer {
