@@ -65,8 +65,8 @@
 
   .save-badge {
   background-color: white !important;
-  color: #97a9c7 !important;
-  border: 1px solid #97a9c7;
+  color: #989896 !important;
+  border: 1px solid #989896;
   font-size: 10px;
   font-weight: 600;
   padding: 2px 7px;
@@ -327,7 +327,7 @@
 
 /* special pricing cards */
 .special-pricing-card {
-  height: 380px;;
+  height: auto;
   width: auto;
   border-radius: 20px;
   border: none;
@@ -362,12 +362,12 @@
 
 .special-pricing-card h2 {
   margin: 10px 0;
-  font-size: 21pt;å
+  font-size: 21pt;
 }
 
 .special-pricing-card .list-unstyled {
-  margin-bottom: 1px;
-  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-top: 10px;
   flex-grow: 1;
 }
 
@@ -381,6 +381,24 @@
     margin: 10px 0px;
     font-size: 28px;url(../../../../../var/folders/qx/6yt68vg56_z1wdrhgxq5bzhr0000gq/T/InDesign Snippets/Snippet_31ECF4C1E.idms);
   }
+
+.special-card-image {
+  width: 100%;
+  height: 140px;
+  overflow: hidden;
+}
+
+.special-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.special-card-image {
+  position: relative;
+}
+
 
 /* SWOP: See what others are paying */
 
@@ -409,12 +427,51 @@
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.04);
   padding: 18px 16px;
   width: 100%;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transform-origin: center;
+  transition:
+    transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.35s ease;
+  will-change: transform;
 }
 
 .swop-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transform:
+    rotate(-1deg)
+    translateY(-4px)
+    scale(1.015);
+      background:
+    linear-gradient(
+      to bottom,
+      #ffffff,
+      #f8fbff
+    );
+
+  box-shadow:
+    0 14px 30px rgba(0, 0, 0, 0.10);
+}
+
+/* 1 */
+.swop-col:nth-child(3n + 1) .swop-card:hover {
+  transform:
+    rotate(-1.4deg)
+    translateY(-5px)
+    scale(1.01);
+}
+
+/* 2 */
+.swop-col:nth-child(3n + 2) .swop-card:hover {
+  transform:
+    rotate(0.8deg)
+    translateY(-7px)
+    scale(1.02);
+}
+
+/* 3 */
+.swop-col:nth-child(3n + 3) .swop-card:hover {
+  transform:
+    rotate(-0.6deg)
+    translateY(-4px)
+    scale(1.015);
 }
 
 /* Icon pill */
