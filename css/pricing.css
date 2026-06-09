@@ -63,6 +63,18 @@
     display: none;
   }
 
+  .save-badge {
+  background-color: white !important;
+  color: var(--main-color);
+  border: 0.7px solid var(--main-color);
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px 7px;
+  border-radius: 20px;
+  vertical-align: middle;
+  margin-left: 4px;
+}
+
   /* pricing page button */
 .panel-primary {
   border-color: var(--main-color);
@@ -369,3 +381,140 @@
     margin: 10px 0px;
     font-size: 28px;url(../../../../../var/folders/qx/6yt68vg56_z1wdrhgxq5bzhr0000gq/T/InDesign Snippets/Snippet_31ECF4C1E.idms);
   }
+
+/* SWOP: See what others are paying */
+
+.swop-section {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+#swop-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.swop-col {
+  display: flex;
+  padding: 8px;
+}
+
+.swop-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: white;
+  border-radius: 16px;
+  border: 0.5px solid rgba(33, 33, 33, 0.1);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.04);
+  padding: 18px 16px;
+  width: 100%;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.swop-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Icon pill */
+.swop-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  flex-shrink: 0;
+}
+.swop-icon { background: white; color: var(--main-color); }
+
+/* Text */
+.swop-card-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.swop-card-desc {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+  margin: 0;
+  flex-grow: 1;
+}
+
+/* Feature list */
+.swop-features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.swop-features li {
+  font-size: 14px;
+  color: #555;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.swop-features li .fa-check {
+  color: var(--qfield-green, #333333);
+  font-size: 14px;
+}
+
+.swop-divider {
+  border: none;
+  border-top: 0.5px solid rgba(33, 33, 33, 0.1);
+  margin: 2px 0;
+}
+
+/* Plan badge */
+.swop-badge {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 2px 9px;
+  border-radius: 20px;
+  align-self: flex-start;
+}
+.swop-badge { color: var(--main-color); background: white; border: 0.8px solid var(--main-color); }
+
+/* Price */
+.swop-price-row {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.swop-price {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333333;
+}
+
+.swop-price small {
+  font-size: 13px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.swop-price-note {
+  font-size: 11px;
+  color: #333333;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .swop-col { width: 50%; }
+  #swop-grid { padding: 0 16px !important; }
+}
+@media (max-width: 480px) {
+  .swop-col { width: 100%; }
+}
