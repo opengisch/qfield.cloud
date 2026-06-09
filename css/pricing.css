@@ -162,8 +162,56 @@
 }
 
 .pricing-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transform:
+    rotate(-1deg)
+    translateY(-4px)
+    scale(1.015);
+      background:
+    linear-gradient(
+      to bottom,
+      #ffffff,
+      #f8fbff
+    );
+
+  box-shadow:
+    0 14px 30px rgba(0, 0, 0, 0.10);
+}
+
+/* 1 */
+.col-md-3:nth-child(1) .pricing-card:hover {
+  transform:
+    rotate(-1.4deg)
+    translateY(-5px)
+    scale(1.01);
+}
+
+/* 2 */
+.col-md-3:nth-child(2) .pricing-card:hover {
+  transform:
+    rotate(0.8deg)
+    translateY(-7px)
+    scale(1.02);
+}
+
+/* 3 */
+.col-md-3:nth-child(3) .pricing-card:hover {
+  transform:
+    rotate(-0.6deg)
+    translateY(-4px)
+    scale(1.015);
+}
+
+
+/* Icon pill */
+.swop-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  flex-shrink: 0;
 }
 
 .panel-heading {
@@ -434,57 +482,6 @@
   will-change: transform;
 }
 
-.swop-card:hover {
-  transform:
-    rotate(-1deg)
-    translateY(-4px)
-    scale(1.015);
-      background:
-    linear-gradient(
-      to bottom,
-      #ffffff,
-      #f8fbff
-    );
-
-  box-shadow:
-    0 14px 30px rgba(0, 0, 0, 0.10);
-}
-
-/* 1 */
-.swop-col:nth-child(3n + 1) .swop-card:hover {
-  transform:
-    rotate(-1.4deg)
-    translateY(-5px)
-    scale(1.01);
-}
-
-/* 2 */
-.swop-col:nth-child(3n + 2) .swop-card:hover {
-  transform:
-    rotate(0.8deg)
-    translateY(-7px)
-    scale(1.02);
-}
-
-/* 3 */
-.swop-col:nth-child(3n + 3) .swop-card:hover {
-  transform:
-    rotate(-0.6deg)
-    translateY(-4px)
-    scale(1.015);
-}
-
-/* Icon pill */
-.swop-icon {
-  width: 40px;
-  height: 40px;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 18px;
-  flex-shrink: 0;
-}
 .swop-icon { background: white; color: var(--main-color); }
 
 /* Text */
