@@ -65,8 +65,8 @@
 
   .save-badge {
   background-color: white !important;
-  color: var(--main-color);
-  border: 0.7px solid var(--main-color);
+  color: var(--main-color) !important;
+  border: 1px solid var(--main-color);
   font-size: 10px;
   font-weight: 600;
   padding: 2px 7px;
