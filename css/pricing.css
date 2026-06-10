@@ -177,6 +177,16 @@
     0 14px 30px rgba(0, 0, 0, 0.10);
 }
 
+.plan-banner {
+  background-color: rgba(74, 111, 174, 0.1);
+  color: var(--main-color);
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+  padding: 8px;
+  border-radius: 20px 20px 0 0;
+}
+
 /* 1 */
 .col-md-3:nth-child(1) .pricing-card:hover {
   transform:
@@ -208,6 +218,10 @@
   border-top-right-radius: 20px;
   border-bottom: rgba(33, 33, 33, 0.5) solid 0.5px !important;
   padding-top: 20px;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 /* optimizations for compactness */
@@ -282,15 +296,15 @@
 }
 
 .popular-btn {
-  background-color: var(--main-color);
-  color: var(--main-color);
-  border-radius: 12px;
-  border: 1px solid #4a6fae;
-  font-size: 8pt !important;
-  font-weight: normal;
   position: absolute;
-  top: 7px;
-  right: 21px;
+  top: 12px;
+  right: 12px;
+  background-color: rgba(74, 111, 174, 0.15);
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+  border-radius: 12px;
+  font-size: 8pt;
+  font-weight: 500;
 }
 
 .collapse-btn {
