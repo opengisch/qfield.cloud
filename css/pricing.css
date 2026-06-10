@@ -201,19 +201,6 @@
     scale(1.015);
 }
 
-
-/* Icon pill */
-.swop-icon {
-  width: 40px;
-  height: 40px;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 18px;
-  flex-shrink: 0;
-}
-
 .panel-heading {
   background-color: white !important;
   color: black !important;
@@ -470,11 +457,11 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  background: white;
-  border-radius: 16px;
+  background: #fcfcfd;
+  border-radius: 12px;
   border: 0.5px solid rgba(33, 33, 33, 0.1);
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.04);
-  padding: 18px 16px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.07);
+  padding: 18px 20px;
   width: 100%;
   transform-origin: center;
   transition:
@@ -483,9 +470,25 @@
   will-change: transform;
 }
 
-.swop-icon { background: white; color: var(--main-color); }
+.swop-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  flex-shrink: 0;
+}
 
-/* Text */
+.swop-icon--agriculture { background: rgb(255, 255, 255); color: #26b71b; }
+.swop-icon--forest { background: rgb(255, 255, 255); color: #3c6f39; }
+.swop-icon--utility { background: rgb(255, 255, 255); color: #e9db18; }
+.swop-icon--heritage { background: rgb(255, 255, 255); color: #5e9dc7; }
+.swop-icon--ngo { background: rgb(255, 255, 255); color: #0f1317; }
+.swop-icon--district { background: rgb(255, 255, 255); color: #706d77; }
+
+
 .swop-card-title {
   font-size: 28px;
   font-weight: 600;
@@ -549,7 +552,7 @@
 }
 
 .swop-price {
-  font-size: 20px;
+  font-size: 28px;
   font-weight: 600;
   color: #333333;
 }
