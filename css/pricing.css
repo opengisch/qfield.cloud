@@ -457,7 +457,7 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  background: #fcfcfd;
+  background: #fdfdff;
   border-radius: 12px;
   border: 0.5px solid rgba(33, 33, 33, 0.1);
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.07);
