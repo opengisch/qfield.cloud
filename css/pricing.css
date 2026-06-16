@@ -502,7 +502,8 @@
 .swop-icon--forest { background: rgb(255, 255, 255); color: #3c6f39; }
 .swop-icon--utility { background: rgb(255, 255, 255); color: #e9db18; }
 .swop-icon--heritage { background: rgb(255, 255, 255); color: #5e9dc7; }
-.swop-icon--ngo { background: rgb(255, 255, 255); color: #0f1317; }
+.swop-icon--ngo { background: rgb(255, 255, 255); color: #26a244; }
+.swop-icon--academia { background: rgb(255, 255, 255); color: #0f1317; }
 .swop-icon--district { background: rgb(255, 255, 255); color: #706d77; }
 
 
@@ -566,6 +567,16 @@
   display: flex;
   flex-direction: column;
   gap: 2px;
+}
+
+.swop-price-row-group {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.swop-price-row-group .swop-price-row {
+  flex: 1;
 }
 
 .swop-price {
