@@ -86,7 +86,7 @@
 }
 
 #flex-plan.blur .panel-body {
-  filter: blur(3px);
+  filter: blur(2px);
 }
 
 .list-unstyled {
