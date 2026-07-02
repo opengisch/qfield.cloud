@@ -1,0 +1,82 @@
+#accordion .card {
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  overflow: hidden;
+}
+
+#accordion .card-header {
+  padding: 0;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+#accordion .card-header h5 {
+  margin: 0;
+}
+
+#accordion .card-header .btn-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+  padding: 14px 18px;
+  color: #2d2d2d;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  white-space: normal;
+  border: none;
+  background: none;
+  line-height: 1.4;
+  gap: 12px;
+}
+
+#accordion .card-header .btn-link:hover {
+  color: #0f6cbf;
+  background-color: #f0f5fb;
+  text-decoration: none;
+}
+
+#accordion .card-header .btn-link::after {
+  content: "\f078";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 12px;
+  flex-shrink: 0;
+  color: #888;
+  transition: transform 0.2s ease;
+}
+
+#accordion .card-header .btn-link[aria-expanded="true"] {
+  color: #0f6cbf;
+  background-color: #edf3fb;
+  border-bottom: 1px solid #cdddf5;
+}
+
+#accordion .card-header .btn-link[aria-expanded="true"]::after {
+  transform: rotate(180deg);
+  color: #0f6cbf;
+}
+
+#accordion .card-body {
+  padding: 16px 18px;
+  color: #444;
+  line-height: 1.65;
+}
+
+#accordion .card-body .badge {
+  font-size: 11px;
+  font-weight: 400;
+  background-color: #e8f0fb;
+  color: #3a6db5;
+  border-radius: 3px;
+  padding: 3px 7px;
+  margin-right: 4px;
+}
+
+.faq-tags {
+  margin-top: 12px;
+  display: block;
+}
