@@ -285,8 +285,7 @@
                   aria-expanded="false"
                   aria-controls="collapse4"
                 >
-                  An organization consists of at least two members. Does the
-                  base price include the first two members?
+                  What is the minimum number of users on a paid plan?
                 </button>
               </h5>
             </div>
@@ -298,9 +297,10 @@
               data-parent="#accordion"
             >
               <div class="card-body">
-                Correct, an organisation always includes at least two members;
-                the base price includes those. Further members will be billed
-                only if they actively use QFieldCloud in a given month.
+                On the Flat plan, all organisation members are billed each month
+                regardless of activity. On the Flex plan, only members who
+                actively use QFieldCloud that month are billed, with a minimum
+                of 1 billed user.
 
                 <br /><span class="badge badge-primary">#qfieldcloud</span>
                 <span class="badge badge-primary">#plans</span>
@@ -331,8 +331,7 @@
             >
               <div class="card-body">
                 You can work with live PostGIS layers with any plan. If you need
-                offline editing, you would need the project to be owned by
-                either a <em>Pro</em> or <em>Organization</em> account.
+                offline editing, you would need to be on a paid plan.
 
                 <br /><span class="badge badge-primary">#qfieldcloud</span>
                 <span class="badge badge-primary">#plans</span>
@@ -361,11 +360,12 @@
               data-parent="#accordion"
             >
               <div class="card-body">
-                Organizations have 1 GB of storage included. Any additional
-                storage has to be prepaid and has a fixed price of 5€ per month
-                per GB. If you need 10GB in total, you have 1GB from your plan
-                and 9GB of additional storage. The additional storage will cost
-                you 45€.
+                On the Flat plan, each user includes 1 GB of sync space, pooled
+                at the organisation level. On the Flex plan, the organisation
+                includes 1 GB. Additional storage is billed at the organisation
+                level at €5 per month per 3 GB. For example, if you need 10 GB
+                total on a Flex plan, you have 1 GB included and need 9 GB
+                extra (3 blocks of 3 GB), which costs €15/month.
 
                 <br /><span class="badge badge-primary">#qfieldcloud</span>
                 <span class="badge badge-primary">billing</span>
@@ -450,7 +450,7 @@
                   aria-expanded="false"
                   aria-controls="collapse9"
                 >
-                  Will there be a free version of the organization feature?
+                  Will there be a free version of the organisation feature?
                 </button>
               </h5>
             </div>
@@ -464,7 +464,7 @@
               <div class="card-body">
                 No, this is not planned. It's, however, possible to collaborate
                 freely on public projects. It is also possible to create a trial
-                organization for 28 days to explore its features.
+                organisation for 28 days to explore its features.
 
                 <br /><span class="badge badge-primary">#qfieldcloud</span>
                 <span class="badge badge-primary">#billing</span>
@@ -493,8 +493,9 @@
               data-parent="#accordion"
             >
               <div class="card-body">
-                Currently, you can only pay by credit card. If your organization
-                cannot pay by card, you can order a yearly package
+                Credit card is supported for both monthly and yearly billing;
+                yearly is set up directly in the app. If your organisation
+                needs to pay by bank transfer, you can request a manual invoice
                 <a href="https://qfield.cloud/yearly-payment">here</a>.
 
                 <br /><span class="badge badge-primary">#qfieldcloud</span>
@@ -589,10 +590,10 @@
               data-parent="#accordion"
             >
               <div class="card-body">
-                Currently, we have implemented automated monthly invoicing only.
-                If your organization needs yearly invoicing, you can order a
-                yearly package
-                <a href="https://qfield.cloud/yearly-payment">here</a>.
+                Both monthly and yearly billing are available. Yearly billing by
+                credit card is set up directly in the app. If your organisation
+                needs a yearly invoice paid by bank transfer, you can request
+                one <a href="https://qfield.cloud/yearly-payment">here</a>.
 
                 <br /><span class="badge badge-primary">#qfieldcloud</span>
                 <span class="badge badge-primary">billing</span>
@@ -610,7 +611,7 @@
                   aria-expanded="false"
                   aria-controls="collapse31"
                 >
-                  Do you offer a trial priod?
+                  Do you offer a trial period?
                 </button>
               </h5>
             </div>
@@ -653,8 +654,9 @@
               data-parent="#accordion"
             >
               <div class="card-body">
-                We don't have a fixed discount for large organisations. Please
-                get in touch with us for a quote.
+                Yes. On the Flat plan, the rate drops to €14 per user per month
+                from 20 users when billed annually. For larger teams or custom
+                requirements, get in touch.
 
                 <br /><span class="badge badge-primary">#qfieldcloud</span>
                 <span class="badge badge-primary">billing</span>
@@ -690,7 +692,7 @@
                   href="https://github.com/opengisch/qfieldcloud"
                   target="_blank"
                   >QFieldCloud GitHub repository</a
-                >] for instructions on how to get it running. If you need
+                > for instructions on how to get it running. If you need
                 premium support and
                 <a href="http://app.qfield.cloud/" target="_blank"
                   >app.qfield.cloud</a
@@ -793,7 +795,9 @@
               data-parent="#accordion"
             >
               <div class="card-body">
-                No, for now, we will only have hosting based in Switzerland.
+                The shared service is hosted in Switzerland. Dedicated
+                Enterprise instances can be hosted in Switzerland, the EU, or
+                Canada, with additional locations available on request.
 
                 <br /><span class="badge badge-primary">#qfieldcloud</span>
                 <span class="badge badge-primary">#datacenter</span>
@@ -826,7 +830,7 @@
               data-parent="#accordion"
             >
               <div class="card-body">
-                Yes, this is possible with an Organisation account.
+                Yes, this is possible with an organisation on the Flat or Flex plan.
 
                 <br /><span class="badge badge-primary">#qfieldcloud</span>
                 <span class="badge badge-primary">#collaboration</span>
@@ -843,8 +847,8 @@
                   aria-expanded="false"
                   aria-controls="collapse21"
                 >
-                  Does a collaborator on an organization's project need to be a
-                  member of the organization?
+                  Does a collaborator on an organisation's project need to be a
+                  member of the organisation?
                 </button>
               </h5>
             </div>
@@ -857,7 +861,7 @@
             >
               <div class="card-body">
                 Yes, a collaborator first needs to be added as a member of the
-                organization. Members can then be added to specific projects.
+                organisation. Members can then be added to specific projects.
 
                 <br /><span class="badge badge-primary">#qfieldcloud</span>
                 <span class="badge badge-primary">#collaboration</span>
@@ -886,9 +890,9 @@
               data-parent="#accordion"
             >
               <div class="card-body">
-                You need a Pro account to collaborate with another Pro user.
-                Members of an organization can collaborate with all other
-                members on projects owned by the organisation.
+                Private project collaboration requires a Flat or Flex plan.
+                Members of an organisation can collaborate on all projects
+                owned by the organisation.
 
                 <br /><span class="badge badge-primary">#qfieldcloud</span>
                 <span class="badge badge-primary">#collaboration</span>
@@ -936,7 +940,7 @@
                   aria-controls="collapse24"
                 >
                   What kind of account do you need to be a part of an
-                  organization?
+                  organisation?
                 </button>
               </h5>
             </div>
@@ -948,13 +952,11 @@
               data-parent="#accordion"
             >
               <div class="card-body">
-                Any account type works. As soon as you get added to an
-                <em>organization</em> as a member, the organization will be
-                billed for your organization account. All organisation members
-                are regular users, regardless of their permissions (reader,
-                editor, administrator, etc.). For your account, you can decide
-                whether to use the free community plan or upgrade to Pro.
-                Upgrading to Pro gives advantages to projects owned by yourself.
+                Any account type works. As soon as you are added to an
+                <em>organisation</em> as a member, the organisation is billed
+                for you. All organisation members are regular users, regardless
+                of their permissions (reader, editor, administrator, etc.). For
+                your own projects, you can use the free Community plan.
 
                 <br /><span class="badge badge-primary">#qfieldcloud</span>
               </div>
@@ -1239,7 +1241,7 @@
                   aria-expanded="false"
                   aria-controls="collapse32"
                 >
-                  Why are my changes are not showing up?
+                  Why are my changes not showing up?
                 </button>
               </h5>
             </div>
