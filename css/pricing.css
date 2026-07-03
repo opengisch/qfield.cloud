@@ -85,7 +85,7 @@
   background-color: var(--main-color);
 }
 
-#flex-plan.blur .panel-body ul{
+#flex-plan.blur .panel-body ul, #flex-plan.blur .panel-body .btn {
   filter: blur(2px);
 }
 
