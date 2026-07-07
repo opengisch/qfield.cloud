@@ -171,7 +171,7 @@
     <main role="main">
       <div class="container">
         <div class="row">
-          <h1 class="display-4 text-center">Pricing</h1>
+          <h1 id="pricing-title" class="display-4 text-center">Pricing</h1>
           <p class="display-4 text-center pricing-text">
             QFieldCloud grows with your needs. Start with the free Community
             plan and upgrade when you need more sync space, advanced features,
@@ -401,281 +401,12 @@
           </div>
         </div>
 
-        <!-- Comparison Table -->
+        <!-- Comparison table link -->
         <div class="row">
           <div class="col-md-12 text-center">
-            <button
-              class="collapse-btn"
-              type="button"
-              data-toggle="collapse"
-              data-target="#comparison-table"
-              aria-expanded="false"
-            >
-              SHOW DETAILED COMPARISON <i class="fa-solid fa-arrow-down"></i>
-            </button>
-          </div>
-        </div>
-
-        <div class="row comparison">
-          <div class="col-md-12">
-            <div class="collapse" id="comparison-table">
-              <div class="comparison-table-wrapper" style="margin-top: 20px">
-                <table class="table table-striped">
-                  <thead>
-                    <tr>
-                      <th class="text-left">Plan</th>
-                      <th class="text-left">Community</th>
-                      <th class="text-left">Flat</th>
-                      <th class="text-left">Flex</th>
-                      <th class="text-left">Enterprise</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Public & Private projects</td>
-                      <td>unlimited</td>
-                      <td>unlimited</td>
-                      <td>unlimited</td>
-                      <td>unlimited</td>
-                    </tr>
-                    <tr>
-                      <td>Public projects collaboration</td>
-                      <td><i class="fa fa-check text-success"></i></td>
-                      <td><i class="fa fa-check text-success"></i></td>
-                      <td><i class="fa fa-check text-success"></i></td>
-                      <td><i class="fa fa-check text-success"></i></td>
-                    </tr>
-                    <tr>
-                      <td>Private projects collaboration</td>
-                      <td><i class="fa fa-times text-danger"></i></td>
-                      <td>
-                        within organisation
-                        <i
-                          class="fa fa-info-circle text-info"
-                          data-toggle="tooltip"
-                          data-placement="top"
-                          title="Unlimited collaboration with the organisation members"
-                        ></i>
-                      </td>
-                      <td>
-                        within organisation
-                        <i
-                          class="fa fa-info-circle text-info"
-                          data-toggle="tooltip"
-                          data-placement="top"
-                          title="Unlimited collaboration with the organisation members"
-                        ></i>
-                      </td>
-                      <td>within organisation</td>
-                    </tr>
-                    <tr>
-                      <td>Sync space</td>
-                      <td>100MB</td>
-                      <td>
-                        1GB (per user)
-                        <i
-                          class="fa fa-info-circle text-info"
-                          data-toggle="tooltip"
-                          data-placement="top"
-                          title="Additional reserved sync space can be chosen at an organisation level and is invoiced monthly at €5/3GB"
-                        ></i>
-                      </td>
-                      <td>
-                        1GB
-                        <i
-                          class="fa fa-info-circle text-info"
-                          data-toggle="tooltip"
-                          data-placement="top"
-                          title="Additional reserved sync space can be chosen at an organisation level and is invoiced monthly at €5/3GB"
-                        ></i>
-                      </td>
-                      <td>custom</td>
-                    </tr>
-                    <tr>
-                      <td>
-                        Version history
-                        <i
-                          class="fa fa-info-circle text-info"
-                          data-toggle="tooltip"
-                          data-placement="top"
-                          title="We keep track of your changed files so you can always restore previous versions"
-                        ></i>
-                      </td>
-                      <td>last 3 versions</td>
-                      <td>last 10 versions</td>
-                      <td>last 10 versions</td>
-                      <td>unlimited</td>
-                    </tr>
-                    <tr>
-                      <td>
-                        File based projects
-                        <i
-                          class="fa fa-info-circle text-info"
-                          data-toggle="tooltip"
-                          data-placement="top"
-                          title="Use geopackages, GeoJSON, shapefiles, and any other file formats supported by QGIS"
-                        ></i>
-                      </td>
-                      <td><i class="fa fa-check text-success"></i></td>
-                      <td><i class="fa fa-check text-success"></i></td>
-                      <td><i class="fa fa-check text-success"></i></td>
-                      <td><i class="fa fa-check text-success"></i></td>
-                    </tr>
-                    <tr>
-                      <td>
-                        Offline PostGIS support
-                        <i
-                          class="fa fa-info-circle text-info"
-                          data-toggle="tooltip"
-                          data-placement="top"
-                          title="Connect your PostGIS DB for seamless integration in your SDI"
-                        ></i>
-                      </td>
-                      <td><i class="fa fa-times text-danger"></i></td>
-                      <td><i class="fa fa-check text-success"></i></td>
-                      <td><i class="fa fa-check text-success"></i></td>
-                      <td><i class="fa fa-check text-success"></i></td>
-                    </tr>
-                    <tr>
-                      <td>Cost predictability</td>
-                      <td>free</td>
-                      <td>fixed</td>
-                      <td>variable (per active user)</td>
-                      <td>fixed (yearly contract)</td>
-                    </tr>
-                    <tr>
-                      <td>Support</td>
-                      <td>
-                        <a href="https://community.qfield.org/" target="_blank"
-                          >community</a
-                        >
-                      </td>
-                      <td>ticket system</td>
-                      <td>ticket system</td>
-                      <td>SLA</td>
-                    </tr>
-                    <tr>
-                      <td>Free trial</td>
-                      <td>always free</td>
-                      <td>28 days</td>
-                      <td>28 days</td>
-                      <td>
-                        <a
-                          href="https://support.qfield.cloud/portal/en/newticket?departmentId=116946000000442061&layoutId=116946000000710166&subject=QFieldCloud%20Enterprise%20Plan%20Inquiry&description=Please%20provide%20the%20following%20details%20to%20help%20us%20prepare%20a%20custom%20offer%3A%0A%0A-%20Expected%20number%20of%20users%3A%20%0A-%20Storage%20needs%3A%20GB%0A-%20Preferred%20data%20residency%20(CH%2FEU%2FCA)%3A%0A-%20Any%20additional%20requirements%3A%20"
-                          target="_blank"
-                        >
-                          talk to sales
-                        </a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>Ideal for</td>
-                      <td>Individuals with small projects</td>
-                      <td>Teams needing collaboration and support</td>
-                      <td>Seasonal teams with fluctuating fieldworkers</td>
-                      <td>
-                        Organisations needing scale, SLA, and data residency.
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Special Pricing -->
-        <div class="row special-pricing" id="special-pricing">
-          <div class="row" style="margin-bottom: 15px">
-            <h1 class="display-4 text-center">Special pricing</h1>
-            <p class="display-4 text-center pricing-text">
-              At QFieldCloud, we believe in the power of education and doing
-              good. That's why we offer <strong>free</strong> and
-              <strong>discounted</strong> packages with all functionality
-              included for organisations that meet certain criteria.
-            </p>
-          </div>
-
-          <!-- Self-hosted -->
-          <div class="col-md-4 col-sm-6">
-            <div class="panel panel-default special-pricing-card">
-              <div class="special-card-image">
-                <img src="/img/selfhosted.jpg" alt="self-hosted" />
-              </div>
-              <div class="panel-heading text-center">
-                <h4>Self-hosted</h4>
-              </div>
-              <div class="panel-body text-center">
-                <h2>Always free</h2>
-
-                <ul class="list-unstyled">
-                  <li>Open source (MIT License)</li>
-                  <li>Self-managed users</li>
-                  <li>Self-hosted sync space</li>
-                </ul>
-                <a
-                  href="https://github.com/opengisch/QFieldCloud"
-                  target="_blank"
-                  class="btn pricing-btn btn-block btn-lg"
-                >
-                  DOWNLOAD NOW
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Academia -->
-          <div class="col-md-4 col-sm-6">
-            <div class="panel panel-default special-pricing-card">
-              <div class="special-card-image">
-                <img src="/img/academia.jpg" alt="academia" />
-              </div>
-              <div class="panel-heading text-center">
-                <h4>Academia</h4>
-              </div>
-              <div class="panel-body text-center">
-                <h2>Flat rate</h2>
-                <ul class="list-unstyled">
-                  <li>All Flat features</li>
-                  <li>Unlimited users</li>
-                  <li>Shared sync space</li>
-                </ul>
-                <a
-                  href="https://qfield.cloud/academia"
-                  target="_blank"
-                  class="btn pricing-btn btn-block btn-lg"
-                >
-                  REQUEST NOW
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Non-profit -->
-          <div class="col-md-4 col-sm-6">
-            <div class="panel panel-default special-pricing-card">
-              <div class="special-card-image">
-                <img src="/img/nonprofit.jpg" alt="non-profit" />
-              </div>
-              <div class="panel-heading text-center">
-                <h4>Non-profit</h4>
-              </div>
-              <div class="panel-body text-center">
-                <h2>Free or discounted</h2>
-                <ul class="list-unstyled">
-                  <li>All Flat features</li>
-                  <li>Free or discounted pricing <i class="fa fa-info-circle text-info" data-toggle="tooltip" data-placement="top" title="" data-original-title="Free plan for NGOs with up to €30k in revenues, discounted plan available for all NGOs"></i></li>
-                  <li>Eligibility based on status and budget</li>
-                </ul>
-                <a
-                  href="https://forms.clickup.com/2192114/f/22wqj-48675/SXQZA6D4U5AEOSB4XM"
-                  target="_blank"
-                  class="btn pricing-btn btn-block btn-lg"
-                >
-                  REQUEST NOW
-                </a>
-              </div>
-            </div>
+            <a href="#comparison-table-title" class="collapse-btn">
+              VIEW FULL COMPARISON <i class="fa-solid fa-arrow-down"></i>
+            </a>
           </div>
         </div>
       </div>
@@ -891,6 +622,283 @@
         <!-- /.container -->
       </div>
       <!-- /.swop-section -->
+
+      <div class="container">
+        <!-- Special Pricing -->
+        <div class="row special-pricing" id="special-pricing">
+          <div class="row" style="margin-bottom: 15px">
+            <h1 class="display-4 text-center">Special pricing</h1>
+            <p class="display-4 text-center pricing-text">
+              At QFieldCloud, we believe in the power of education and doing
+              good. That's why we offer <strong>free</strong> and
+              <strong>discounted</strong> packages with all functionality
+              included for organisations that meet certain criteria.
+            </p>
+          </div>
+
+          <!-- Self-hosted -->
+          <div class="col-md-4 col-sm-6">
+            <div class="panel panel-default special-pricing-card">
+              <div class="special-card-image">
+                <img src="/img/selfhosted.jpg" alt="self-hosted" />
+              </div>
+              <div class="panel-heading text-center">
+                <h4>Self-hosted</h4>
+              </div>
+              <div class="panel-body text-center">
+                <h2>Always free</h2>
+
+                <ul class="list-unstyled">
+                  <li>Open source (MIT License)</li>
+                  <li>Self-managed users</li>
+                  <li>Self-hosted sync space</li>
+                </ul>
+                <a
+                  href="https://github.com/opengisch/QFieldCloud"
+                  target="_blank"
+                  class="btn pricing-btn btn-block btn-lg"
+                >
+                  DOWNLOAD NOW
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Academia -->
+          <div class="col-md-4 col-sm-6">
+            <div class="panel panel-default special-pricing-card">
+              <div class="special-card-image">
+                <img src="/img/academia.jpg" alt="academia" />
+              </div>
+              <div class="panel-heading text-center">
+                <h4>Academia</h4>
+              </div>
+              <div class="panel-body text-center">
+                <h2>Flat rate</h2>
+                <ul class="list-unstyled">
+                  <li>All Flat features</li>
+                  <li>Unlimited users</li>
+                  <li>Shared sync space</li>
+                </ul>
+                <a
+                  href="https://qfield.cloud/academia"
+                  target="_blank"
+                  class="btn pricing-btn btn-block btn-lg"
+                >
+                  REQUEST NOW
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Non-profit -->
+          <div class="col-md-4 col-sm-6">
+            <div class="panel panel-default special-pricing-card">
+              <div class="special-card-image">
+                <img src="/img/nonprofit.jpg" alt="non-profit" />
+              </div>
+              <div class="panel-heading text-center">
+                <h4>Non-profit</h4>
+              </div>
+              <div class="panel-body text-center">
+                <h2>Free or discounted</h2>
+                <ul class="list-unstyled">
+                  <li>All Flat features</li>
+                  <li>Free or discounted pricing <i class="fa fa-info-circle text-info" data-toggle="tooltip" data-placement="top" title="" data-original-title="Free plan for NGOs with up to €30k in revenues, discounted plan available for all NGOs"></i></li>
+                  <li>Eligibility based on status and budget</li>
+                </ul>
+                <a
+                  href="https://forms.clickup.com/2192114/f/22wqj-48675/SXQZA6D4U5AEOSB4XM"
+                  target="_blank"
+                  class="btn pricing-btn btn-block btn-lg"
+                >
+                  REQUEST NOW
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Comparison Table -->
+        <div class="row" style="margin-bottom: 15px">
+          <h1 id="comparison-table-title"class="display-4 text-center">Compare plans in detail</h1>
+        </div>
+        <div class="row comparison">
+          <div class="col-md-12">
+            <div id="comparison-table">
+              <div class="comparison-table-wrapper" style="margin-top: 20px">
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th class="text-left">Plan</th>
+                      <th class="text-left">Community</th>
+                      <th class="text-left">Flat</th>
+                      <th class="text-left">Flex</th>
+                      <th class="text-left">Enterprise</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Public & Private projects</td>
+                      <td>unlimited</td>
+                      <td>unlimited</td>
+                      <td>unlimited</td>
+                      <td>unlimited</td>
+                    </tr>
+                    <tr>
+                      <td>Public projects collaboration</td>
+                      <td><i class="fa fa-check text-success"></i></td>
+                      <td><i class="fa fa-check text-success"></i></td>
+                      <td><i class="fa fa-check text-success"></i></td>
+                      <td><i class="fa fa-check text-success"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Private projects collaboration</td>
+                      <td><i class="fa fa-times text-danger"></i></td>
+                      <td>
+                        within organisation
+                        <i
+                          class="fa fa-info-circle text-info"
+                          data-toggle="tooltip"
+                          data-placement="top"
+                          title="Unlimited collaboration with the organisation members"
+                        ></i>
+                      </td>
+                      <td>
+                        within organisation
+                        <i
+                          class="fa fa-info-circle text-info"
+                          data-toggle="tooltip"
+                          data-placement="top"
+                          title="Unlimited collaboration with the organisation members"
+                        ></i>
+                      </td>
+                      <td>within organisation</td>
+                    </tr>
+                    <tr>
+                      <td>Sync space</td>
+                      <td>100MB</td>
+                      <td>
+                        1GB (per user)
+                        <i
+                          class="fa fa-info-circle text-info"
+                          data-toggle="tooltip"
+                          data-placement="top"
+                          title="Additional reserved sync space can be chosen at an organisation level and is invoiced monthly at €5/3GB"
+                        ></i>
+                      </td>
+                      <td>
+                        1GB
+                        <i
+                          class="fa fa-info-circle text-info"
+                          data-toggle="tooltip"
+                          data-placement="top"
+                          title="Additional reserved sync space can be chosen at an organisation level and is invoiced monthly at €5/3GB"
+                        ></i>
+                      </td>
+                      <td>custom</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Version history
+                        <i
+                          class="fa fa-info-circle text-info"
+                          data-toggle="tooltip"
+                          data-placement="top"
+                          title="We keep track of your changed files so you can always restore previous versions"
+                        ></i>
+                      </td>
+                      <td>last 3 versions</td>
+                      <td>last 10 versions</td>
+                      <td>last 10 versions</td>
+                      <td>unlimited</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        File based projects
+                        <i
+                          class="fa fa-info-circle text-info"
+                          data-toggle="tooltip"
+                          data-placement="top"
+                          title="Use geopackages, GeoJSON, shapefiles, and any other file formats supported by QGIS"
+                        ></i>
+                      </td>
+                      <td><i class="fa fa-check text-success"></i></td>
+                      <td><i class="fa fa-check text-success"></i></td>
+                      <td><i class="fa fa-check text-success"></i></td>
+                      <td><i class="fa fa-check text-success"></i></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Offline PostGIS support
+                        <i
+                          class="fa fa-info-circle text-info"
+                          data-toggle="tooltip"
+                          data-placement="top"
+                          title="Connect your PostGIS DB for seamless integration in your SDI"
+                        ></i>
+                      </td>
+                      <td><i class="fa fa-times text-danger"></i></td>
+                      <td><i class="fa fa-check text-success"></i></td>
+                      <td><i class="fa fa-check text-success"></i></td>
+                      <td><i class="fa fa-check text-success"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Cost predictability</td>
+                      <td>free</td>
+                      <td>fixed</td>
+                      <td>variable (per active user)</td>
+                      <td>fixed (yearly contract)</td>
+                    </tr>
+                    <tr>
+                      <td>Support</td>
+                      <td>
+                        <a href="https://community.qfield.org/" target="_blank"
+                          >community</a
+                        >
+                      </td>
+                      <td>ticket system</td>
+                      <td>ticket system</td>
+                      <td>SLA</td>
+                    </tr>
+                    <tr>
+                      <td>Free trial</td>
+                      <td>always free</td>
+                      <td>28 days</td>
+                      <td>28 days</td>
+                      <td>
+                        <a
+                          href="https://support.qfield.cloud/portal/en/newticket?departmentId=116946000000442061&layoutId=116946000000710166&subject=QFieldCloud%20Enterprise%20Plan%20Inquiry&description=Please%20provide%20the%20following%20details%20to%20help%20us%20prepare%20a%20custom%20offer%3A%0A%0A-%20Expected%20number%20of%20users%3A%20%0A-%20Storage%20needs%3A%20GB%0A-%20Preferred%20data%20residency%20(CH%2FEU%2FCA)%3A%0A-%20Any%20additional%20requirements%3A%20"
+                          target="_blank"
+                        >
+                          talk to sales
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Ideal for</td>
+                      <td>Individuals with small projects</td>
+                      <td>Teams needing collaboration and support</td>
+                      <td>Seasonal teams with fluctuating fieldworkers</td>
+                      <td>
+                        Organisations needing scale, SLA, and data residency.
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <a href="#pricing-title" class="collapse-btn">
+              <i class="fa-solid fa-arrow-up"></i> BACK TO PLANS
+            </a>
+          </div>
+        </div>
+      </div>
     </main>
 
     <section id="about" data-speed="2" data-type="background">

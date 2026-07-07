@@ -1,5 +1,10 @@
 /*TODO CleanUp. Ideas from https://codepen.io/tutsplus/full/BaVyNaw*/
 
+#pricing-title,
+#comparison-table-title {
+  scroll-margin-top: 120px;
+}
+
 .switch-wrapper {
     position: relative;
     display: inline-flex;
