@@ -4328,23 +4328,16 @@ input[type="button"].btn-block {
 .navbar-brand {
   display: inline-block;
   padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
-  margin-right: 1rem;
+  margin-right: 0;
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
+  max-width: calc(100vw - 92px);
+  }
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
   text-decoration: none;
-}
-
-@media (max-width: 768px) {
-    .navbar-brand img {
-        height: 36px !important;
-        width: auto;
-        margin-top: 4px !important;
-    }
 }
 
 .navbar-nav {

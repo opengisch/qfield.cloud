@@ -106,6 +106,19 @@ span.shadow-background {
   max-width: calc(100vw - 100px);
 }
 
+@media (max-width: 767px) {
+  .navbar-brand {
+    max-width: calc(100vw - 92px);
+    padding-right: 0;
+  }
+
+  .navbar-brand img {
+    max-width: 100% !important;
+    height: 35px !important;
+    margin-top: 16px !important;
+    margin-left: 15px !important;
+  }
+
 footer.footer {
   margin-top: 20px;
 }
