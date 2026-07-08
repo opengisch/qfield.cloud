@@ -1,7 +1,21 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python3 -)"
+      "Bash(python3 -)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 -c \"import playwright\")",
+      "Bash(google-chrome --headless --disable-gpu --no-sandbox --window-size=1280,6000 --screenshot=/tmp/claude-1000/-home-marco-dev-qfield-websites-qfield-cloud/9f3e6393-3572-4100-bc32-8e9a75c86711/scratchpad/pricing-full.png http://localhost:8791/pricing.html)",
+      "Bash(google-chrome --headless --disable-gpu --no-sandbox --window-size=1280,6000 --screenshot=/tmp/claude-1000/-home-marco-dev-qfield-websites-qfield-cloud/9f3e6393-3572-4100-bc32-8e9a75c86711/scratchpad/pricing-full2.png http://localhost:8792/pricing.html)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:8793/pricing.html)",
+      "Bash(google-chrome --headless --disable-gpu --no-sandbox --window-size=1280,6200 --screenshot=/tmp/claude-1000/-home-marco-dev-qfield-websites-qfield-cloud/9f3e6393-3572-4100-bc32-8e9a75c86711/scratchpad/pricing-full4.png http://localhost:8794/pricing.html)",
+      "Bash(pkill -f \"http.server 879\")",
+      "Bash(nohup python3 -m http.server 8795)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:8795/pricing.html)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:8794/pricing.html)",
+      "Bash(nohup python3 -m http.server 8796)",
+      "Bash(disown)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:8796/pricing.html)",
+      "Bash(google-chrome --headless --disable-gpu --no-sandbox --window-size=1280,900 --screenshot=/tmp/claude-1000/-home-marco-dev-qfield-websites-qfield-cloud/9f3e6393-3572-4100-bc32-8e9a75c86711/scratchpad/anchor-comparison.png --hide-scrollbars 'http://localhost:8796/pricing.html#comparison-table-title')"
     ]
   }
 }
