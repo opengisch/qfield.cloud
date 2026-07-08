@@ -628,14 +628,26 @@
   color: var(--main-color);
 }
 
-/* .badge-yearly {
-  display: inline-block;
-  color: rgba(255, 255, 255, 0.75);
-  font-size: 12px;
-  font-weight: 400;
-  margin-left: 6px;
-  vertical-align: middle;
-} */
+@media (max-width: 767px) {
+  .switch-wrapper label {
+    flex-direction: row;
+    line-height: 1.1;
+  }
+
+  .badge-yearly {
+    display: inline-block;
+    position: static;
+    margin-left: 6px;
+    font-size: 11px;
+    padding: 2px 8px;
+  }
+
+    .switch-wrapper {
+    min-height: 60px;
+    padding-top: 6px;
+    padding-bottom: 2px;
+  }
+}
 
 /* Mobile and tablet layout */
 @media (max-width: 991px) {
