@@ -95,16 +95,30 @@ span.shadow-background {
   height: 100%;
   overflow: hidden;
   color: var(--main-color) !important;
-  font-size:25px;
+  font-size: 25px;
 }
 
 .navbar-brand img {
   display:inline-block;
   width: auto;
-  height: 52px;
-  margin-top: 8px;
+  height: 35px;
+  margin-top: 15px;
+  margin-left: 10px;
   max-width: calc(100vw - 100px);
 }
+
+@media (max-width: 767px) {
+  .navbar-brand {
+    max-width: calc(100vw - 92px);
+    padding-right: 0;
+  }
+
+  .navbar-brand img {
+    max-width: 100% !important;
+    height: 35px !important;
+    margin-top: 16px !important;
+    margin-left: 15px !important;
+  }
 
 footer.footer {
   margin-top: 20px;
@@ -426,8 +440,14 @@ font-size: 13pt;
   text-decoration:underline;
 }
 
-.media-object { width: 64px; height: 64px; padding-bottom: 30px }
+@media (max-width: 767px) {
+  #about .container {
+    padding-left: 26px;
+    padding-right: 26px;
+  }
+}
 
+.media-object { width: 64px; height: 64px; padding-bottom: 30px }
 
 div.feature {
   padding: 3rem 1.5rem;

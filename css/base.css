@@ -473,6 +473,13 @@ h6,
   font-weight: 300;
   line-height: 1.2;
 }
+/*
+@media (max-width: 768px) {
+    .pricing-header {
+        padding-left: 34px;
+        padding-right: 24px;
+    }
+} */
 
 hr {
   margin-top: 1rem;
@@ -4321,11 +4328,12 @@ input[type="button"].btn-block {
 .navbar-brand {
   display: inline-block;
   padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
-  margin-right: 1rem;
+  margin-right: 0;
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
+  max-width: calc(100vw - 92px);
+  }
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -10401,5 +10409,3 @@ a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
-
-/*# sourceMappingURL=vendor.css.map */
