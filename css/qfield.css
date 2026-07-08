@@ -2,6 +2,7 @@
   --main-color: #4a6fae;
   --second-color: #80cc28;
   --third-color: #525251;
+  --btn-border-radius: 4px; /* matches Bootstrap 3's default .btn radius */
 }
 
 body {
@@ -967,6 +968,16 @@ div.explanation {
 #success-story a {
   color: var(--main-color);
   font-weight: bolder;
+}
+
+/* 404 error page */
+
+.error-actions .btn {
+  margin: 0.5rem;
+}
+
+.error-actions .btn-primary {
+  border-radius: var(--btn-border-radius);
 }
 
 /* html .md-typeset .footnote-ref {
