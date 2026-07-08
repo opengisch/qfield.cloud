@@ -425,8 +425,14 @@ font-size: 13pt;
   text-decoration:underline;
 }
 
-.media-object { width: 64px; height: 64px; padding-bottom: 30px }
+@media (max-width: 767px) {
+  #about .container {
+    padding-left: 26px;
+    padding-right: 26px;
+  }
+}
 
+.media-object { width: 64px; height: 64px; padding-bottom: 30px }
 
 div.feature {
   padding: 3rem 1.5rem;
