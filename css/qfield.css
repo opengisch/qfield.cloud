@@ -94,14 +94,15 @@ span.shadow-background {
   height: 100%;
   overflow: hidden;
   color: var(--main-color) !important;
-  font-size:25px;
+  font-size: 25px;
 }
 
 .navbar-brand img {
   display:inline-block;
   width: auto;
-  height: 52px;
-  margin-top: 8px;
+  height: 35px;
+  margin-top: 15px;
+  margin-left: 10px;
   max-width: calc(100vw - 100px);
 }
 

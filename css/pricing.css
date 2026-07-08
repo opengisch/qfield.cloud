@@ -749,8 +749,9 @@
 
   .navbar-brand img {
     max-width: 100% !important;
-    height: 42px !important;
-    margin-top: 5px !important;
+    height: 35px !important;
+    margin-top: 16px !important;
+    margin-left: 15px !important;
   }
 
   main > .container {
