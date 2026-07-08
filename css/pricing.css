@@ -607,6 +607,8 @@
 
 /* monthly/yearlytoggle */
 
+
+
 .badge-yearly {
   background-color: rgba(255, 255, 255, 0.2);
   color: white;
@@ -768,6 +770,15 @@
     line-height: 1.15;
     margin-top: 24px;
   }
+
+  @media (max-width: 767px) {
+  /* headings/paragraphs that sit directly in a .row, unlike the cards */
+  main .row > h1.display-4,
+  main .row > p.pricing-text {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
 
   .pricing-text {
     font-size: 16px;
