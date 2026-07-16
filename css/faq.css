@@ -1,14 +1,12 @@
 #accordion .card {
-  border: 1px solid #e0e0e0;
-  border-radius: 6px;
-  margin-bottom: 6px;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 15px;
   overflow: hidden;
 }
 
 #accordion .card-header {
   padding: 0;
-  background-color: #f8f9fa;
-  border-bottom: 1px solid #e0e0e0;
+  border-radius: 80px;
 }
 
 #accordion .card-header h5 {
@@ -21,10 +19,10 @@
   align-items: center;
   width: 100%;
   text-align: left;
-  padding: 14px 18px;
+  padding: 16px 18px;
   color: #2d2d2d;
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 17.333px;
+  font-weight: 300;
   text-decoration: none;
   white-space: normal;
   border: none;
@@ -34,9 +32,8 @@
 }
 
 #accordion .card-header .btn-link:hover {
-  color: #0f6cbf;
-  background-color: #f0f5fb;
   text-decoration: none;
+  font-weight: 400;
 }
 
 #accordion .card-header .btn-link::after {
@@ -45,14 +42,11 @@
   font-weight: 900;
   font-size: 12px;
   flex-shrink: 0;
-  color: #888;
   transition: transform 0.2s ease;
 }
 
 #accordion .card-header .btn-link[aria-expanded="true"] {
-  color: #0f6cbf;
-  background-color: #edf3fb;
-  border-bottom: 1px solid #cdddf5;
+  font-weight: 400;
 }
 
 #accordion .card-header .btn-link[aria-expanded="true"]::after {
