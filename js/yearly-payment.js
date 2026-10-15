@@ -4,7 +4,7 @@ $(function () {
   /* ==========================================================================
        yearly payments request
      ========================================================================== */
-  const MONTHLY_USER = 16;
+  const MONTHLY_USER = 18;
   const MONTHLY_GB = 5;
   const SETUP_FEE = 150;
 
