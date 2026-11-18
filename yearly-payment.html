@@ -206,7 +206,7 @@
                 <div id="calculator" class="p-2 mb-2">
                   <div class="mb-3 row">
                     <label for="users" class="col-sm-8 col-form-label"
-                      >Collaborators</label
+                      >Users</label
                     >
                     <div class="col-sm-4">
                       <input
@@ -214,27 +214,38 @@
                         id="users"
                         type="number"
                         value="2"
-                        min="2"
+                        min="1"
                         step="1"
                       />
                     </div>
                   </div>
                   <div class="mb-3 row">
+                    <label for="included-storage" class="col-sm-8 col-form-label"
+                      >Included storage
+                      <a href="#" title="1 GB included per user">ⓘ</a></label
+                    >
+                    <div class="col-sm-4">
+                      <input
+                        type="text"
+                        readonly
+                        class="form-control text-right pr-2"
+                        id="included-storage"
+                        value="2 GB"
+                      />
+                    </div>
+                  </div>
+                  <div class="mb-3 row">
                     <label for="storage" class="col-sm-8 col-form-label"
-                      >Total storage GB
-                      <a
-                        href="#"
-                        title="1 GB included for free, sold in packages of 3 GB"
-                        >ⓘ</a
-                      ></label
+                      >Additional storage GB
+                      <a href="#" title="Sold in packages of 3 GB">ⓘ</a></label
                     >
                     <div class="col-sm-4">
                       <input
                         class="form-control text-right"
                         id="storage"
                         type="number"
-                        value="1"
-                        min="1"
+                        value="0"
+                        min="0"
                         step="3"
                       />
                     </div>
@@ -257,7 +268,8 @@
 
                   <div class="mb-3 row font-weight-bold">
                     <label for="costs" class="col-sm-8 col-form-label"
-                      >Yearly costs</label
+                      >Yearly costs
+                      <span id="costs-summary">(2 users, 2 GB)</span></label
                     >
                     <div class="col-sm-4">
                       <input
@@ -300,7 +312,7 @@
           If your organisation cannot directly subscribe using a credit card, we
           can manually create a yearly subscription. The only difference to the
           monthly subscription is that you must choose a fixed amount of
-          collaborators and storage space that will be valid for the entire
+          users and storage space that will be valid for the entire
           subscription period.
         </p>
         <p>
@@ -322,7 +334,7 @@
         <iframe
           id="request-form"
           class="clickup-embed clickup-dynamic-height"
-          src="https://forms.clickup.com/2192114/f/22wqj-21867/FV88S70BQG7ERZ65R9?monthly_gb_price=5&monthly_user_price=18&Total%20GB%20needed=1&Number%20of%20collaborators=2`"
+          src="https://forms.clickup.com/2192114/f/22wqj-21867/FV88S70BQG7ERZ65R9?monthly_gb_price=5&monthly_user_price=18&Total%20GB%20needed=2&Number%20of%20collaborators=2`"
           onwheel=""
           width="100%"
           height="100%"
