@@ -33,17 +33,21 @@ $(function () {
     return Math.ceil(Math.max(Number(storage.val()), 0) / 3);
   }
 
+  function totalPrice() {
+    const users_val = usersValue();
+    return (
+      SETUP_FEE +
+      (users_val * userPrice(users_val) + storagePackages() * MONTHLY_GB) * 12
+    );
+  }
+
   function updateCosts() {
     const users_val = usersValue();
-
-    const total =
-      SETUP_FEE +
-      (users_val * userPrice(users_val) + storagePackages() * MONTHLY_GB) * 12;
 
     // each user includes 1GB.
     included_storage.val(users_val + " GB");
     setup.val(SETUP_FEE + " €");
-    costs.val(total + " €");
+    costs.val(totalPrice() + " €");
     costs_summary.text(`(${users_val} users, ${totalStorage()} GB)`);
   }
 
@@ -53,11 +57,10 @@ $(function () {
 
   function updateForm() {
     const users_val = usersValue();
-    const storage_val = totalStorage();
 
     const form_url =
       "https://forms.clickup.com/2192114/f/22wqj-21867/FV88S70BQG7ERZ65R9?";
-    const params = `monthly_gb_price=${MONTHLY_GB}&monthly_user_price=${userPrice(users_val)}&setup_fee=${SETUP_FEE}&Total%20GB%20needed=${storage_val}&Number%20of%20collaborators=${users_val}`;
+    const params = `monthly_data_package_price=${MONTHLY_GB}&monthly_user_price=${userPrice(users_val)}&setup_fee=${SETUP_FEE}&Number%20of%20Data%20Packages=${storagePackages()}&Total%20storage%20GB=${totalStorage()}&Number%20of%20collaborators=${users_val}&Total%20price%20%28excl%20VAT%29=${totalPrice()}`;
     const url = form_url + params;
     iframe.attr("src", url);
     console.log(url);
